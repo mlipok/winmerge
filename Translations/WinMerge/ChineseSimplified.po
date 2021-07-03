@@ -41,8 +41,20 @@ msgstr "从左侧复制(&F)"
 msgid "Copy fro&m Right"
 msgstr "从右侧复制(&M)"
 
-msgid "&Select Line Difference\tF4"
-msgstr "选中行内差异(&S)\tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr ""
+
+msgid "Copy Selected Line(s) to Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Right"
+msgstr ""
+
+msgid "Select Line &Difference\tF4"
+msgstr "选中行内差异(&D)\tF4"
 
 msgid "Add this change to Substitution &Filters"
 msgstr ""
@@ -61,6 +73,12 @@ msgstr "复制(&C)"
 
 msgid "&Paste"
 msgstr "粘贴(&P)"
+
+msgid "&Scripts"
+msgstr "脚本(&S)"
+
+msgid "< Empty >"
+msgstr "< 空 >"
 
 msgid "&Go to...\tCtrl+G"
 msgstr "转到(&G)...\tCtrl+G"
@@ -82,6 +100,9 @@ msgstr "使用外部编辑器(&E)\tCtrl+Alt+E"
 
 msgid "&With..."
 msgstr "选择程序(&W)..."
+
+msgid "Open &Parent Folder..."
+msgstr "打开上层文件夹(&P)..."
 
 msgid "S&hell Menu"
 msgstr "外壳菜单(&S)"
@@ -208,9 +229,6 @@ msgstr "最近打开的工程"
 msgid "Recent F&iles Or Folders"
 msgstr "最近打开的文件或文件夹(&I)"
 
-msgid "< Empty >"
-msgstr "< 空 >"
-
 msgid "E&xit\tCtrl+Q"
 msgstr "退出(&X)\tCtrl+Q"
 
@@ -325,8 +343,8 @@ msgstr "中间只读(&I)"
 msgid "Ri&ght Read-only"
 msgstr "右侧只读(&G)"
 
-msgid "File En&coding..."
-msgstr "文件编码(&C)"
+msgid "&File Encoding..."
+msgstr "文件编码(&F)..."
 
 msgid "Select &All\tCtrl+A"
 msgstr "全选(&A)\tCtrl+A"
@@ -406,8 +424,8 @@ msgstr "交换组1与组&3"
 msgid "Com&pare Statistics..."
 msgstr "比较结果统计(&P)..."
 
-msgid "Refre&sh\tF5"
-msgstr "刷新(&S)\tF5"
+msgid "Refresh\tF5"
+msgstr "刷新\tF5"
 
 msgid "&Refresh Selected\tCtrl+F5"
 msgstr "刷新选中项(&R)\tCtrl+F5"
@@ -496,14 +514,8 @@ msgstr "合并模式(&G)\tF9"
 msgid "Re&load\tCtrl+F5"
 msgstr "重新加载(&L)\tCtrl+F5"
 
-msgid "&File Encoding..."
-msgstr "文件编码(&F)..."
-
 msgid "Reco&mpare As"
 msgstr "重新比较(&M)"
-
-msgid "&XML"
-msgstr "&XML"
 
 msgid "&Undo\tCtrl+Z"
 msgstr "撤销(&U)\tCtrl+Z"
@@ -519,9 +531,6 @@ msgstr "复制(&C)\tCtrl+C"
 
 msgid "&Paste\tCtrl+V"
 msgstr "粘贴(&P)\tCtrl+V"
-
-msgid "Select Line &Difference\tF4"
-msgstr "选中行内差异(&D)\tF4"
 
 msgid "F&ind...\tCtrl+F"
 msgstr "查找(&I)...\tCtrl+F"
@@ -688,17 +697,23 @@ msgstr "添加同步点(&S)\tAlt+S"
 msgid "Clear Sync&hronization Points"
 msgstr "清除同步点(&H)"
 
+msgid "Unpac&ker"
+msgstr ""
+
 msgid "&Prediffer"
 msgstr "预处理(&P)"
 
-msgid "&Scripts"
-msgstr "脚本(&S)"
+msgid "Apply Pre&differ..."
+msgstr ""
 
 msgid "Sp&lit"
 msgstr "分隔(&L)"
 
 msgid "Comp&are"
 msgstr "比较(&A)"
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr "非横向比较(&I)..."
@@ -784,11 +799,8 @@ msgstr "隐藏(&H)"
 msgid "&Open Left"
 msgstr "打开左侧(&O)"
 
-msgid "with &External Editor"
+msgid "With &External Editor"
 msgstr "用外部编辑器(&E)"
-
-msgid "Open &Parent Folder..."
-msgstr "打开上层文件夹(&P)..."
 
 msgid "Open Midd&le"
 msgstr "打开中间(&L)"
@@ -858,14 +870,20 @@ msgstr "复制完整路径(&C)"
 msgid "Copy &Filename"
 msgstr "复制文件名(&F)"
 
+msgid "Unpacker Settings"
+msgstr ""
+
+msgid "<None>"
+msgstr "<无>"
+
+msgid "<Automatic>"
+msgstr "<自动>"
+
+msgid "&Select..."
+msgstr "选择(&S)..."
+
 msgid "Prediffer Settings"
 msgstr "设置预处理器"
-
-msgid "&No prediffer"
-msgstr "无预处理器(&N)"
-
-msgid "Auto prediffer"
-msgstr "自动预处理"
 
 msgid "G&o to Diff"
 msgstr "转到差异(&O)"
@@ -888,6 +906,9 @@ msgstr "忽略空白字符的变化(G)"
 msgid "Ig&nore all"
 msgstr "忽略所有空白字符(&N)"
 
+msgid "Ignore blan&k lines"
+msgstr "忽略空行(&K)"
+
 msgid "Ignore &case"
 msgstr "忽略大小写(&C)"
 
@@ -896,6 +917,9 @@ msgstr "忽略换行符差异 (Windows/Unix/Mac)(&R)"
 
 msgid "Ignore codepage &differences"
 msgstr "忽略代码页差异(&D)"
+
+msgid "Ignore c&omment differences"
+msgstr ""
 
 msgid "&Include Subfolders"
 msgstr "包含子目录(&I)"
@@ -978,9 +1002,6 @@ msgstr "浏览..."
 msgid " Folder: Filter"
 msgstr " 文件夹: 过滤器"
 
-msgid "&Select..."
-msgstr "选择(&S)..."
-
 msgid " File: Unpacker Plugin"
 msgstr " 文件: 解包插件"
 
@@ -1014,8 +1035,8 @@ msgstr "按 'Esc' 关闭窗口(&O):"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "“打开”对话框中自动验证路径(&A)"
 
-msgid "All&ow only one instance to run"
-msgstr "只允许运行一个实例(&O)"
+msgid "Single instance mode:"
+msgstr ""
 
 msgid "As&k when closing multiple windows"
 msgstr "关闭多个窗口时询问我(&K)"
@@ -1029,8 +1050,8 @@ msgstr "启动时显示“选择文件或文件夹”对话框"
 msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr "点击“确定”按钮时关闭“选择文件或文件夹”对话框"
 
-msgid "O&pen-dialog Auto-Completion:"
-msgstr "“打开”对话框的自动完成(&P):"
+msgid "Op&en-dialog Auto-Completion:"
+msgstr "“打开”对话框的自动完成(&E):"
 
 msgid "Language:"
 msgstr "语言:"
@@ -1071,7 +1092,7 @@ msgstr "查找下一个(&F)"
 msgid "Find &Prev"
 msgstr "查找上一个(&P)"
 
-msgid "&OK"
+msgid "&Ok"
 msgstr "确定(&O)"
 
 msgid "Replace"
@@ -1112,9 +1133,6 @@ msgstr "新建"
 
 msgid "&Background color:"
 msgstr "背景颜色(&B)"
-
-msgid "&Ok"
-msgstr "确定(&O)"
 
 msgid "&Apply"
 msgstr "应用(&A)"
@@ -1284,20 +1302,32 @@ msgstr "上移(&U)"
 msgid "Move &Down"
 msgstr "下移(&D)"
 
-msgid "Select Unpacker"
-msgstr "选择解包程序"
+msgid "Select Plugin"
+msgstr ""
 
-msgid "File unpacker:"
-msgstr "文件解包程序:"
-
-msgid "Display all unpackers, don't check the extension."
-msgstr "不检查扩展名，显示所有解包器。"
+msgid "Plugin &Name:"
+msgstr ""
 
 msgid "Extensions list:"
 msgstr "扩展名:"
 
 msgid "Description:"
 msgstr "描述:"
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all unpackers, don't check the extension."
+msgstr "不检查扩展名，显示所有解包器。"
+
+msgid "&Open files in the same window type after unpacking."
+msgstr ""
+
+msgid "&Plugin Pipeline:"
+msgstr ""
+
+msgid "&Add pipe"
+msgstr ""
 
 msgid "Stop"
 msgstr "停止"
@@ -1352,12 +1382,6 @@ msgstr "忽略空白字符的变化(&I)"
 
 msgid "I&gnore all"
 msgstr "忽略所有空白字符(&G)"
-
-msgid "Ignore blan&k lines"
-msgstr "忽略空行(&K)"
-
-msgid "Ignore c&omment differences"
-msgstr ""
 
 msgid "E&nable moved block detection"
 msgstr "启用块移动检测(&N)"
@@ -1477,14 +1501,14 @@ msgid "Select the default codepage assumed when loading non-Unicode files:"
 msgstr "请选择当加载“非 Unicode 文件”时默认假定的代码页:"
 
 msgid ""
-"Detect codepage info for these files: .html, .rc, .xml\n"
+"Detect codepage info for these type of files: .html, .rc, .xml\n"
 "Need to restart session."
 msgstr ""
 "检测下列文件的代码页：.html, .rc, .xml \n"
 "需要重启会话。"
 
 msgid ""
-"Detect codepage for text files using mlang.dll\n"
+"Detect codepage for text files with mlang.dll\n"
 "Need to restart session."
 msgstr ""
 "使用 mlang.dll 检查文本文件的代码页\n"
@@ -1772,6 +1796,12 @@ msgstr "启用插件(&E)"
 msgid "File filters:"
 msgstr "文件过滤器:"
 
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr ""
+
 msgid "Shell Integration"
 msgstr "外壳集成"
 
@@ -1806,8 +1836,8 @@ msgstr "遇到首处差异后停止(&T)"
 msgid "Ign&ore time differences less than 3 seconds"
 msgstr "忽略小于3秒的时间差异(&O)"
 
-msgid "&Include unique subfolders contents"
-msgstr "包含仅在单侧的子文件夹内容(&I)"
+msgid "Include &unique subfolders contents"
+msgstr "包含仅在单侧的子文件夹内容(&U)"
 
 msgid "&Automatically expand all subfolders"
 msgstr "自动展开所有子文件夹(&A)"
@@ -1975,15 +2005,6 @@ msgstr ""
 "WinMerge 文件夹比较"
 
 msgid ""
-"Developers:\n"
-"Dean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi "
-"Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr ""
-"开发者:\n"
-"Dean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi "
-"Sawanaka, Gal Hammer, Alexander Skinner"
-
-msgid ""
 "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you "
 "are welcome to redistribute it under certain circumstances; see the GNU "
 "General Public License in the Help menu for details."
@@ -2033,11 +2054,11 @@ msgid ""
 msgstr ""
 "如需重新显示这些提示框，请在“选项”对话框的“常规”选项卡中点击“重置”按钮。"
 
-msgid "Color Schemes"
-msgstr "配色方案"
-
 msgid "Syntax"
 msgstr "语法"
+
+msgid "Color Schemes"
+msgstr "配色方案"
 
 msgid "Folder Compare"
 msgstr "文件夹比较"
@@ -2117,6 +2138,12 @@ msgstr "HTML 文件 (*.htm,*.html)|*.htm;*.html|所有文件 (*.*)|*.*||"
 
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
 msgstr "XML 文件 (*.xml)|*.xml|所有文件 (*.*)|*.*||"
+
+msgid "File Type"
+msgstr ""
+
+msgid "Extension"
+msgstr "扩展名"
 
 msgid "Name"
 msgstr "名称"
@@ -2235,6 +2262,9 @@ msgstr "他们的文件"
 msgid "Mine File"
 msgstr "我的文件"
 
+msgid "Original File"
+msgstr ""
+
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
 msgstr "行: %s  列: %d/%d  字符: %d/%d  换行符: %s"
@@ -2246,6 +2276,10 @@ msgstr "行: %s"
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
 msgstr "行: %s  列: %d/%d  字符: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr ""
 
 msgid "Merge"
 msgstr "合并"
@@ -2667,9 +2701,6 @@ msgstr "右侧日期"
 msgid "Middle Date"
 msgstr "中间日期"
 
-msgid "Extension"
-msgstr "扩展名"
-
 msgid "Left Size"
 msgstr "左侧大小"
 
@@ -2745,6 +2776,12 @@ msgstr "忽略的差异"
 msgctxt "DirView|ColumnHeader"
 msgid "Binary"
 msgstr "二进制"
+
+msgid "Unpacker"
+msgstr "解包器"
+
+msgid "Prediffer"
+msgstr "预处理器"
 
 msgid "Unable to compare files"
 msgstr "无法比较文件"
@@ -2942,6 +2979,12 @@ msgstr "文件中的差异数。不包括忽略的差异。"
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr "在二进制文件处显示星号(*)。"
 
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr "比较 %1 和 %2"
@@ -3037,6 +3080,12 @@ msgstr "您是否要移动到下一页?"
 
 msgid "Do you want to move to the previous page?"
 msgstr "您是否要移动到上一页?"
+
+msgid "Do you want to move to the first file?"
+msgstr ""
+
+msgid "Do you want to move to the last file?"
+msgstr ""
 
 #, c-format
 msgid ""
@@ -3213,12 +3262,6 @@ msgstr "新模式"
 msgid "Type"
 msgstr "类型"
 
-msgid "Unpacker"
-msgstr "解包器"
-
-msgid "Prediffer"
-msgstr "预处理器"
-
 msgid "Editor script"
 msgstr "编辑器脚本"
 
@@ -3344,13 +3387,13 @@ msgstr ""
 msgid "\nFirst File"
 msgstr ""
 
-msgid "\nNext File"
+msgid "\nNext File (Ctrl+F8)"
 msgstr ""
 
 msgid "\nLast File"
 msgstr ""
 
-msgid "\nPrevious File"
+msgid "\nPrevious File (Ctrl+F7)"
 msgstr ""
 
 msgid ""
@@ -3390,12 +3433,6 @@ msgstr "插件设置"
 
 msgid "WSH not found - .sct scripts disabled"
 msgstr "WSH 未找到 - .sct 脚本已禁用"
-
-msgid "<None>"
-msgstr "<无>"
-
-msgid "<Automatic>"
-msgstr "<自动>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -3610,3 +3647,121 @@ msgstr ""
 msgid "Word-by-word position and text"
 msgstr ""
 
+msgid "Allow only one instance to run"
+msgstr "只允许运行一个实例"
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr ""
+
+msgid "Al&l"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""

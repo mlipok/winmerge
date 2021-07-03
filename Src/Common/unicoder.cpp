@@ -17,7 +17,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #include "pch.h"
 #include "unicoder.h"
 #include <windows.h>
-#include <tchar.h>
 #include <cassert>
 #include <memory>
 #include <Poco/UnicodeConverter.h>
@@ -875,13 +874,6 @@ String toTString(const std::string& str)
 	dealloc((void *)p);
 	return astr;
 #endif
-}
-
-std::wstring toUTF16(const String& tstr)
-{
-	std::wstring wstr;
-	toUTF16(tstr, wstr);
-	return wstr;
 }
 
 void toUTF16(const String& tstr, std::wstring& wstr)

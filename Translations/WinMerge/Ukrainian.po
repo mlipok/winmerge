@@ -45,8 +45,21 @@ msgstr ""
 msgid "Copy fro&m Right"
 msgstr ""
 
-msgid "&Select Line Difference\tF4"
-msgstr "&Вибрати відмінність\tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr ""
+
+msgid "Copy Selected Line(s) to Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Right"
+msgstr ""
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "Вибрати від&мінність\tF4"
 
 msgid "Add this change to Substitution &Filters"
 msgstr ""
@@ -71,6 +84,14 @@ msgstr "&Копіювати"
 msgid "&Paste"
 msgstr "&Вставити"
 
+#, c-format
+msgid "&Scripts"
+msgstr "С&ценарії"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< Нема >"
+
 msgid "&Go to...\tCtrl+G"
 msgstr "Перейти до рядка...\tCtrl+G"
 
@@ -92,6 +113,9 @@ msgstr ""
 
 msgid "&With..."
 msgstr "&За допомогою..."
+
+msgid "Open &Parent Folder..."
+msgstr ""
 
 msgid "S&hell Menu"
 msgstr ""
@@ -247,10 +271,6 @@ msgstr "Нещодавні проекти"
 msgid "Recent F&iles Or Folders"
 msgstr ""
 
-#, c-format
-msgid "< Empty >"
-msgstr "< Нема >"
-
 msgid "E&xit\tCtrl+Q"
 msgstr "В&ихід\tCtrl+Q"
 
@@ -402,8 +422,8 @@ msgid "Ri&ght Read-only"
 msgstr "Ф&айл справа лише для читання"
 
 #, c-format
-msgid "File En&coding..."
-msgstr ""
+msgid "&File Encoding..."
+msgstr "&Кодування файлу..."
 
 #, c-format
 msgid "Select &All\tCtrl+A"
@@ -504,7 +524,7 @@ msgid "Com&pare Statistics..."
 msgstr "Порівняти статистики..."
 
 #, c-format
-msgid "Refre&sh\tF5"
+msgid "Refresh\tF5"
 msgstr "&Поновити\tF5"
 
 #, c-format
@@ -621,16 +641,8 @@ msgid "Re&load\tCtrl+F5"
 msgstr ""
 
 #, c-format
-msgid "&File Encoding..."
-msgstr "&Кодування файлу..."
-
-#, c-format
 msgid "Reco&mpare As"
 msgstr ""
-
-#, c-format
-msgid "&XML"
-msgstr "&XML"
 
 #, c-format
 msgid "&Undo\tCtrl+Z"
@@ -651,10 +663,6 @@ msgstr "&Копіювати\tCtrl+C"
 #, c-format
 msgid "&Paste\tCtrl+V"
 msgstr "&Вставити\tCtrl+V"
-
-#, c-format
-msgid "Select Line &Difference\tF4"
-msgstr "Вибрати від&мінність\tF4"
 
 #, c-format
 msgid "F&ind...\tCtrl+F"
@@ -871,13 +879,15 @@ msgstr ""
 msgid "Clear Sync&hronization Points"
 msgstr ""
 
+msgid "Unpac&ker"
+msgstr ""
+
 #, c-format
 msgid "&Prediffer"
 msgstr "&Попереднє порівняння"
 
-#, c-format
-msgid "&Scripts"
-msgstr "С&ценарії"
+msgid "Apply Pre&differ..."
+msgstr ""
 
 #, c-format
 msgid "Sp&lit"
@@ -886,6 +896,9 @@ msgstr ""
 #, c-format
 msgid "Comp&are"
 msgstr "По&рівняти"
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr ""
@@ -987,11 +1000,8 @@ msgid "&Open Left"
 msgstr "&Відкрити лівий файл"
 
 #, c-format
-msgid "with &External Editor"
-msgstr "зо&внішнім редактором"
-
-msgid "Open &Parent Folder..."
-msgstr ""
+msgid "With &External Editor"
+msgstr "Зо&внішнім редактором"
 
 #, c-format
 msgid "Open Midd&le"
@@ -1073,17 +1083,24 @@ msgstr "&Скопіювати повний шлях"
 msgid "Copy &Filename"
 msgstr "Скопіювати &ім'я файлу"
 
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<Нема>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<Автоматично>"
+
+#, c-format
+msgid "&Select..."
+msgstr "Вибрати..."
+
 #, c-format
 msgid "Prediffer Settings"
 msgstr "Параметри попереднього порівняння"
-
-#, c-format
-msgid "&No prediffer"
-msgstr "&Нема попереднього порівняння"
-
-#, c-format
-msgid "Auto prediffer"
-msgstr "&Автоматичне попереднє порівняння"
 
 msgid "G&o to Diff"
 msgstr "Перейти до &відмінності"
@@ -1113,6 +1130,10 @@ msgid "Ig&nore all"
 msgstr "Нехтувати всюди"
 
 #, c-format
+msgid "Ignore blan&k lines"
+msgstr "Нехтувати порожніми &лініями"
+
+#, c-format
 msgid "Ignore &case"
 msgstr "Нехтувати р&егістр"
 
@@ -1122,6 +1143,9 @@ msgstr "Нехтувати різницею в кінцях рядків (Win/Un
 
 #, c-format
 msgid "Ignore codepage &differences"
+msgstr ""
+
+msgid "Ignore c&omment differences"
 msgstr ""
 
 #, c-format
@@ -1232,10 +1256,6 @@ msgid " Folder: Filter"
 msgstr ""
 
 #, c-format
-msgid "&Select..."
-msgstr "Вибрати..."
-
-#, c-format
 msgid " File: Unpacker Plugin"
 msgstr ""
 
@@ -1276,9 +1296,8 @@ msgstr "За&кривати вікна клавішею 'Esc':"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "Автоматично перевіряти шляхи в діалозі відкриття файлів"
 
-#, c-format
-msgid "All&ow only one instance to run"
-msgstr "&Дозволити запуск лише однієї копії"
+msgid "Single instance mode:"
+msgstr ""
 
 #, c-format
 msgid "As&k when closing multiple windows"
@@ -1297,7 +1316,7 @@ msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr ""
 
 #, c-format
-msgid "O&pen-dialog Auto-Completion:"
+msgid "Op&en-dialog Auto-Completion:"
 msgstr "Діалог Автоматичного доповнення:"
 
 #, c-format
@@ -1347,7 +1366,8 @@ msgstr "&Далі"
 msgid "Find &Prev"
 msgstr ""
 
-msgid "&OK"
+#, c-format
+msgid "&Ok"
 msgstr "&OК"
 
 #, c-format
@@ -1400,10 +1420,6 @@ msgstr "Створити"
 #, c-format
 msgid "&Background color:"
 msgstr ""
-
-#, c-format
-msgid "&Ok"
-msgstr "&OК"
 
 #, c-format
 msgid "&Apply"
@@ -1617,16 +1633,11 @@ msgstr "&Вгору"
 msgid "Move &Down"
 msgstr "В&низ"
 
-#, c-format
-msgid "Select Unpacker"
-msgstr "Вибір розпакувальника"
+msgid "Select Plugin"
+msgstr ""
 
-#, c-format
-msgid "File unpacker:"
-msgstr "Файл розпакувальника:"
-
-msgid "Display all unpackers, don't check the extension."
-msgstr "Показувати всі розпакувальники, не перевіряючи розширення."
+msgid "Plugin &Name:"
+msgstr ""
 
 #, c-format
 msgid "Extensions list:"
@@ -1635,6 +1646,21 @@ msgstr "Список розширень:"
 #, c-format
 msgid "Description:"
 msgstr "Опис:"
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all unpackers, don't check the extension."
+msgstr "Показувати всі розпакувальники, не перевіряючи розширення."
+
+msgid "&Open files in the same window type after unpacking."
+msgstr ""
+
+msgid "&Plugin Pipeline:"
+msgstr ""
+
+msgid "&Add pipe"
+msgstr ""
 
 #, c-format
 msgid "Stop"
@@ -1703,13 +1729,6 @@ msgstr "Нехтувати зміненими пропусками"
 #, c-format
 msgid "I&gnore all"
 msgstr "Нехтувати &всіма пропусками"
-
-#, c-format
-msgid "Ignore blan&k lines"
-msgstr "Нехтувати порожніми &лініями"
-
-msgid "Ignore c&omment differences"
-msgstr ""
 
 #, c-format
 msgid "E&nable moved block detection"
@@ -1861,12 +1880,12 @@ msgstr "Звичайна сторінка кодування"
 msgid "Select the default codepage assumed when loading non-Unicode files:"
 msgstr "Виберіть звичайну сторінку кодування для не Юнікодних файлів:"
 
-msgid "Detect codepage info for these files: .html, .rc, .xml\nNeed to restart session."
+msgid "Detect codepage info for these type of files: .html, .rc, .xml\nNeed to restart session."
 msgstr ""
 "Виявлення інформації про кодову сторінку для файлів\n"
 " .html, .rc, .xml вимагає перезапуску."
 
-msgid "Detect codepage for text files using mlang.dll\nNeed to restart session."
+msgid "Detect codepage for text files with mlang.dll\nNeed to restart session."
 msgstr ""
 
 #, c-format
@@ -2234,6 +2253,12 @@ msgstr "&Ввімкнути доповнення"
 msgid "File filters:"
 msgstr ""
 
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr ""
+
 #, c-format
 msgid "Shell Integration"
 msgstr "Вживлення в оболонку"
@@ -2277,7 +2302,7 @@ msgid "Ign&ore time differences less than 3 seconds"
 msgstr "Нехтувати різницею часу, меншою 3 секунд"
 
 #, c-format
-msgid "&Include unique subfolders contents"
+msgid "Include &unique subfolders contents"
 msgstr ""
 
 #, c-format
@@ -2445,11 +2470,6 @@ msgstr ""
 "WinMerge.FolderCompare\n"
 "WinMerge Порівняння тек"
 
-msgid "Developers:\nDean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr ""
-"Розробники:\n"
-"Дін Грім (Dean Grimm), Крістіан Ліст (Christian List), Кімо Варіс (Kimmo Varis), Йохен Тухт (Jochen Tucht), Тім Герундт (Tim Gerundt), Такаші Саванакa (Takashi Sawanaka), Гел Хамер (Gal Hammer), Олександр Скіннер (Alexander Skinner)"
-
 #, c-format
 msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you are welcome to redistribute it under certain circumstances; see the GNU General Public License in the Help menu for details."
 msgstr "WinMerge поставляється БЕЗ БУДЬ-ЯКОЇ ГАРАНТІЇ. Це вільне ПО і ми привітаємо його поширення згідно деяких умов; ознайомтеся з GNU General Public License в меню Довідка для докладнішої інформації."
@@ -2505,11 +2525,11 @@ msgstr "Не показувати &це повідомлення знову "
 msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
 msgstr ""
 
-msgid "Color Schemes"
-msgstr ""
-
 #, c-format
 msgid "Syntax"
+msgstr ""
+
+msgid "Color Schemes"
 msgstr ""
 
 msgid "Folder Compare"
@@ -2602,6 +2622,13 @@ msgstr "Файли HTML (*.htm,*.html)|*.htm;*.html|Всі файли (*.*)|*.*|
 #, c-format
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
 msgstr "Файли XML (*.xml)|*.xml|Всі файли (*.*)|*.*||"
+
+msgid "File Type"
+msgstr ""
+
+#, c-format
+msgid "Extension"
+msgstr "Розширення"
 
 #, c-format
 msgid "Name"
@@ -2736,6 +2763,9 @@ msgstr "Їхй файл"
 msgid "Mine File"
 msgstr "Мій файл"
 
+msgid "Original File"
+msgstr ""
+
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
 msgstr ""
@@ -2746,6 +2776,10 @@ msgstr "Рядок: %s"
 
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
+msgstr ""
+
+#, c-format
+msgid "  Sel: %d | %d"
 msgstr ""
 
 #, c-format
@@ -3181,10 +3215,6 @@ msgid "Middle Date"
 msgstr ""
 
 #, c-format
-msgid "Extension"
-msgstr "Розширення"
-
-#, c-format
 msgid "Left Size"
 msgstr "Розмір ліворуч"
 
@@ -3282,6 +3312,14 @@ msgstr "Знех. відмінності"
 msgctxt "DirView|ColumnHeader"
 msgid "Binary"
 msgstr "Бінарний"
+
+#, c-format
+msgid "Unpacker"
+msgstr "Розпакувальник"
+
+#, c-format
+msgid "Prediffer"
+msgstr "Нехтувач"
 
 #, c-format
 msgid "Unable to compare files"
@@ -3526,6 +3564,12 @@ msgstr "Кількість відмінностей у файлі. Ігноро�
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr "Показати зірочку (*) якщо файл бінарний."
 
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr "Порівняння %1 з %2"
@@ -3625,6 +3669,12 @@ msgstr ""
 
 #, c-format
 msgid "Do you want to move to the previous page?"
+msgstr ""
+
+msgid "Do you want to move to the first file?"
+msgstr ""
+
+msgid "Do you want to move to the last file?"
 msgstr ""
 
 #, c-format
@@ -3821,14 +3871,6 @@ msgid "Type"
 msgstr "Тип"
 
 #, c-format
-msgid "Unpacker"
-msgstr "Розпакувальник"
-
-#, c-format
-msgid "Prediffer"
-msgstr "Нехтувач"
-
-#, c-format
 msgid "Editor script"
 msgstr "Сценарій редактора"
 
@@ -3903,13 +3945,13 @@ msgstr ""
 msgid "\nFirst File"
 msgstr ""
 
-msgid "\nNext File"
+msgid "\nNext File (Ctrl+F8)"
 msgstr ""
 
 msgid "\nLast File"
 msgstr ""
 
-msgid "\nPrevious File"
+msgid "\nPrevious File (Ctrl+F7)"
 msgstr ""
 
 msgid "The adapted unpacker is applied to both files (one file only needs the extension)."
@@ -3949,14 +3991,6 @@ msgstr "Налаштування доповнення"
 #, c-format
 msgid "WSH not found - .sct scripts disabled"
 msgstr "WSH не знайдений - .sct сценарії вимкнуті"
-
-#, c-format
-msgid "<None>"
-msgstr "<Нема>"
-
-#, c-format
-msgid "<Automatic>"
-msgstr "<Автоматично>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -4179,3 +4213,122 @@ msgstr ""
 msgid "Word-by-word position and text"
 msgstr ""
 
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "Дозволити запуск лише однієї копії"
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr ""
+
+msgid "Al&l"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""

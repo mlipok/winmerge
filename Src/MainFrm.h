@@ -13,6 +13,7 @@
 
 #include <vector>
 #include <memory>
+#include <optional>
 #include "MDITabBar.h"
 #include "PathContext.h"
 #include "OptionsDef.h"
@@ -42,7 +43,9 @@ typedef CTypedPtrList<CPtrList, CDirDoc *> DirDocList;
 typedef CTypedPtrList<CPtrList, CHexMergeDoc *> HexMergeDocList;
 
 class PackingInfo;
+class PrediffingInfo;
 class CLanguageSelect;
+struct IMergeDoc;
 
 CMainFrame * GetMainFrame(); // access to the singleton main frame object
 
@@ -83,19 +86,29 @@ public:
 	HMENU NewImgMergeViewMenu();
 	HMENU NewOpenViewMenu();
 	HMENU NewDefaultMenu(int ID = 0);
-	HMENU GetScriptsSubmenu(HMENU mainMenu);
 	HMENU GetPrediffersSubmenu(HMENU mainMenu);
 	void UpdatePrediffersMenu();
 
 	void FileNew(int nPanes, FRAMETYPE frameType, bool table);
 	bool DoFileOpen(const PathContext *pFiles = nullptr,
-		const DWORD dwFlags[] = nullptr, const String strDesc[] = nullptr, const String& sReportFile = _T(""), bool bRecurse = false, CDirDoc *pDirDoc = nullptr, String prediffer = _T(""), const PackingInfo * infoUnpacker = nullptr);
+		const DWORD dwFlags[] = nullptr, const String strDesc[] = nullptr,
+		const String& sReportFile = _T(""), bool bRecurse = false, CDirDoc *pDirDoc = nullptr,
+		const PackingInfo * infoUnpacker = nullptr, const PrediffingInfo * infoPrediffer = nullptr);
+	bool DoFileOpen(UINT nID, const PathContext* pFiles = nullptr,
+		const DWORD dwFlags[] = nullptr, const String strDesc[] = nullptr,
+		const String& sReportFile = _T(""), const PackingInfo* infoUnpacker = nullptr);
 	bool ShowAutoMergeDoc(CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
 		const DWORD dwFlags[], const String strDesc[], const String& sReportFile = _T(""), const PackingInfo * infoUnpacker = nullptr);
-	bool ShowMergeDoc(CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
+	bool ShowMergeDoc(UINT nID, CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
 		const DWORD dwFlags[], const String strDesc[], const String& sReportFile = _T(""), const PackingInfo * infoUnpacker = nullptr);
-	bool ShowMergeDoc(CDirDoc* pDirDoc, int nBuffers, const String text[],
+	bool ShowTextOrTableMergeDoc(std::optional<bool> table, CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
+		const DWORD dwFlags[], const String strDesc[], const String& sReportFile = _T(""), const PackingInfo * infoUnpacker = nullptr);
+	bool ShowTextMergeDoc(CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
+		const DWORD dwFlags[], const String strDesc[], const String& sReportFile = _T(""), const PackingInfo * infoUnpacker = nullptr);
+	bool ShowTextMergeDoc(CDirDoc* pDirDoc, int nBuffers, const String text[],
 		const String strDesc[], const String& strFileExt);
+	bool ShowTableMergeDoc(CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
+		const DWORD dwFlags[], const String strDesc[], const String& sReportFile = _T(""), const PackingInfo * infoUnpacker = nullptr);
 	bool ShowHexMergeDoc(CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
 		const DWORD dwFlags[], const String strDesc[], const String& sReportFile = _T(""), const PackingInfo * infoUnpacker = nullptr);
 	bool ShowImgMergeDoc(CDirDoc * pDirDoc, int nFiles, const FileLocation fileloc[],
@@ -108,11 +121,16 @@ public:
 	void StartFlashing();
 	bool AskCloseConfirmation();
 	bool DoOpenConflict(const String& conflictFile, const String strDesc[] = nullptr, bool checked = false);
-	FRAMETYPE GetFrameType(const CFrameWnd * pFrame) const;
-	void UpdateDocTitle();
-	void ReloadMenu();
+	bool DoSelfCompare(UINT nID, const String& file, const String strDesc[] = nullptr, const PackingInfo* infoUnpacker = nullptr);
+	static FRAMETYPE GetFrameType(const CFrameWnd * pFrame);
+	static void UpdateDocTitle();
+	static void ReloadMenu();
+	static void AppendPluginMenus(CMenu* pMenu, const String& filteredFilenames,
+		const std::vector<std::wstring> events, bool addAllMenu, unsigned baseId);
+	static String GetPluginPipelineByMenuId(unsigned idSearch, const std::vector<std::wstring> events, unsigned baseId);
 	DropHandler *GetDropHandler() const { return m_pDropHandler; }
 	const CTypedPtrArray<CPtrArray, CMDIChildWnd*>* GetChildArray() const { return &m_arrChild; }
+	IMergeDoc* GetActiveIMergeDoc();
 
 // Overrides
 	virtual void GetMessageString(UINT nID, CString& rMessage) const;
@@ -244,7 +262,7 @@ protected:
 	afx_msg void OnPluginUnpackMode(UINT nID);
 	afx_msg void OnUpdatePluginPrediffMode(CCmdUI* pCmdUI);
 	afx_msg void OnPluginPrediffMode(UINT nID);
-	afx_msg void OnUpdateReloadPlugins(CCmdUI* pCmdUI);
+	afx_msg void OnUpdatePluginRelatedMenu(CCmdUI* pCmdUI);
 	afx_msg void OnReloadPlugins();
 	afx_msg void OnSaveConfigData();
 	template <int nFiles, FRAMETYPE frameType, bool table = false>
@@ -277,26 +295,38 @@ protected:
 	afx_msg void OnToolbarButtonDropDown(NMHDR* pNMHDR, LRESULT* pResult);
 	afx_msg void OnDiffWhitespace(UINT nID);
 	afx_msg void OnUpdateDiffWhitespace(CCmdUI* pCmdUI);
+	afx_msg void OnDiffIgnoreBlankLines();
+	afx_msg void OnUpdateDiffIgnoreBlankLines(CCmdUI* pCmdUI);
 	afx_msg void OnDiffIgnoreCase();
 	afx_msg void OnUpdateDiffIgnoreCase(CCmdUI* pCmdUI);
 	afx_msg void OnDiffIgnoreEOL();
 	afx_msg void OnUpdateDiffIgnoreEOL(CCmdUI* pCmdUI);
 	afx_msg void OnDiffIgnoreCP();
 	afx_msg void OnUpdateDiffIgnoreCP(CCmdUI* pCmdUI);
+	afx_msg void OnDiffIgnoreComments();
+	afx_msg void OnUpdateDiffIgnoreComments(CCmdUI* pCmdUI);
 	afx_msg void OnIncludeSubfolders();
 	afx_msg void OnUpdateIncludeSubfolders(CCmdUI* pCmdUI);
 	afx_msg void OnCompareMethod(UINT nID);
 	afx_msg void OnUpdateCompareMethod(CCmdUI* pCmdUI);
 	afx_msg void OnMRUs(UINT nID);
 	afx_msg void OnUpdateNoMRUs(CCmdUI* pCmdUI);
-    afx_msg void OnTimer(UINT_PTR nIDEvent);
+	afx_msg void OnFirstFile();
+	afx_msg void OnUpdateFirstFile(CCmdUI* pCmdUI);
+	afx_msg void OnPrevFile();
+	afx_msg void OnUpdatePrevFile(CCmdUI* pCmdUI);
+	afx_msg void OnNextFile();
+	afx_msg void OnUpdateNextFile(CCmdUI* pCmdUI);
+	afx_msg void OnLastFile();
+	afx_msg void OnUpdateLastFile(CCmdUI* pCmdUI);
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	afx_msg void OnDestroy();
 	afx_msg void OnAccelQuit();
-	//}}AFX_MSG
 	afx_msg LRESULT OnChildFrameAdded(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT OnChildFrameRemoved(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT OnChildFrameActivate(WPARAM wParam, LPARAM lParam);
 	afx_msg LRESULT OnChildFrameActivated(WPARAM wParam, LPARAM lParam);
+	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 
 private:

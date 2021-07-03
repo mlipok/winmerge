@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: https://bugs.winmerge.org/\n"
 "POT-Creation-Date: 2020-01-19 21:36+0000\n"
-"PO-Revision-Date: 2021-01-27 19:30+0100\n"
+"PO-Revision-Date: 2021-04-24 22:03+0200\n"
 "Last-Translator: Jadran Rudec <jrudec@gmail.com>\n"
 "Language-Team: Slovenian <winmerge-translate@lists.sourceforge.net>\n"
 "Language: sl\n"
@@ -45,8 +45,21 @@ msgstr "Kopiraj iz l&eve"
 msgid "Copy fro&m Right"
 msgstr "Kopiraj iz de&sne"
 
-msgid "&Select Line Difference\tF4"
-msgstr "&Izberi razliko vrstice\tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr "Kopiraj izbrane vrstice na desno"
+
+msgid "Copy Selected Line(s) to Left"
+msgstr "Kopiraj izbrane vrstice na levo"
+
+msgid "Copy Selected Line(s) from Left"
+msgstr "Kopiraj izbrane vrstice z leve"
+
+msgid "Copy Selected Line(s) from Right"
+msgstr "Kopiraj izbrane vrstice z desne"
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "Izberi &razliko vrstice\tF4"
 
 msgid "Add this change to Substitution &Filters"
 msgstr "Dodaj to spremembmo med &Nadomestne filtre"
@@ -71,6 +84,14 @@ msgstr "&Kopiraj"
 msgid "&Paste"
 msgstr "&Prilepi"
 
+#, c-format
+msgid "&Scripts"
+msgstr "&Skripti"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< Prazno >"
+
 msgid "&Go to...\tCtrl+G"
 msgstr "Pojdi &na...\tCtrl+G"
 
@@ -92,6 +113,9 @@ msgstr "Z zu&nanjim urejevalnikom\tCtrl+Alt+E"
 
 msgid "&With..."
 msgstr "&Z..."
+
+msgid "Open &Parent Folder..."
+msgstr "Nad&rejena mapa..."
 
 msgid "S&hell Menu"
 msgstr "Meni &lupine"
@@ -247,10 +271,6 @@ msgstr "Nedavni projekti"
 msgid "Recent F&iles Or Folders"
 msgstr "Ne&davne datoteke ali mape"
 
-#, c-format
-msgid "< Empty >"
-msgstr "< Prazno >"
-
 msgid "E&xit\tCtrl+Q"
 msgstr "I&zhod\tCtrl+Q"
 
@@ -379,7 +399,7 @@ msgstr "Nas&tavitve"
 
 #, c-format
 msgid "&GNU General Public License"
-msgstr "&GNU Javna licenca"
+msgstr "Javna licenca &GNU"
 
 #, c-format
 msgid "&About WinMerge..."
@@ -391,19 +411,19 @@ msgstr "S&amo-za-branje"
 
 #, c-format
 msgid "L&eft Read-only"
-msgstr "L&evo Samo-za-branje"
+msgstr "L&evo 'samo-za-branje'"
 
 #, c-format
 msgid "M&iddle Read-only"
-msgstr "S&rednja Samo-za-branje"
+msgstr "S&rednja 'samo-za-branje'"
 
 #, c-format
 msgid "Ri&ght Read-only"
 msgstr "De&sno samo-za-branje"
 
 #, c-format
-msgid "File En&coding..."
-msgstr "&Kodiranje datoteke..."
+msgid "&File Encoding..."
+msgstr "De&kodiranje datoteke..."
 
 #, c-format
 msgid "Select &All\tCtrl+A"
@@ -503,7 +523,7 @@ msgid "Com&pare Statistics..."
 msgstr "&Statistika primerjave..."
 
 #, c-format
-msgid "Refre&sh\tF5"
+msgid "Refresh\tF5"
 msgstr "Osv&eži\tF5"
 
 #, c-format
@@ -540,11 +560,11 @@ msgstr "&Zadnja razlika\tAlt+End"
 
 #, c-format
 msgid "Copy to &Right\tAlt+Right"
-msgstr "Kopiraj v de&sno\tAlt+Right"
+msgstr "Kopiraj v de&sno\tAlt+Desno"
 
 #, c-format
 msgid "Copy to L&eft\tAlt+Left"
-msgstr "Kopiraj v &levo\tAlt+Left"
+msgstr "Kopiraj v &levo\tAlt+Levo"
 
 #, c-format
 msgid "&Delete\tDel"
@@ -620,16 +640,8 @@ msgid "Re&load\tCtrl+F5"
 msgstr "Znova nal&oži\tCtrl+F5"
 
 #, c-format
-msgid "&File Encoding..."
-msgstr "De&kodiranje datoteke..."
-
-#, c-format
 msgid "Reco&mpare As"
 msgstr "Znova primerjaj kot"
-
-#, c-format
-msgid "&XML"
-msgstr "&XML"
 
 #, c-format
 msgid "&Undo\tCtrl+Z"
@@ -650,10 +662,6 @@ msgstr "&Kopiraj\tCtrl+C"
 #, c-format
 msgid "&Paste\tCtrl+V"
 msgstr "&Prilepi\tCtrl+V"
-
-#, c-format
-msgid "Select Line &Difference\tF4"
-msgstr "Izberi &razliko vrstice\tF4"
 
 #, c-format
 msgid "F&ind...\tCtrl+F"
@@ -736,7 +744,7 @@ msgid "&Toggle All and 0-9 Lines\tCtrl+D"
 msgstr "&Preklopi vse in 0-9 vrstic\tCtrl+D"
 
 msgid "&Invert (Hide Different Lines)"
-msgstr "O&brni  (Skrij različne vrstice)"
+msgstr "O&brni (Skrij različne vrstice)"
 
 #, c-format
 msgid "&Lock Panes"
@@ -839,17 +847,17 @@ msgstr "Samo prejšnja desna razlika\tAlt+Shift+9"
 
 #, c-format
 msgid "Copy from Left\tAlt+Shift+Right"
-msgstr "Kopiraj iz leve\tAlt+Shift+Right"
+msgstr "Kopiraj iz leve\tAlt+Shift+Desno"
 
 #, c-format
 msgid "Copy from Right\tAlt+Shift+Left"
-msgstr "Kopiraj iz desne\tAlt+Shift+Left"
+msgstr "Kopiraj iz desne\tAlt+Shift+Levo"
 
 msgid "C&opy to Right and Advance\tCtrl+Alt+Right"
-msgstr "K&opiraj v desno in naprej\tAlt+Ctrl+desno"
+msgstr "K&opiraj v desno in naprej\tAlt+Ctrl+Desno"
 
 msgid "Copy &to Left and Advance\tCtrl+Alt+Left"
-msgstr "Kopiraj v le&vo in naprej\tAlt+Ctrl+levo"
+msgstr "Kopiraj v le&vo in naprej\tAlt+Ctrl+Levo"
 
 #, c-format
 msgid "Copy &All to Right"
@@ -870,13 +878,15 @@ msgstr "Dodaj &sinhronizacijsko točko\tAlt+S"
 msgid "Clear Sync&hronization Points"
 msgstr "Počisti sin&hronizacijske točke"
 
+msgid "Unpac&ker"
+msgstr ""
+
 #, c-format
 msgid "&Prediffer"
 msgstr "&Predpregled razlik"
 
-#, c-format
-msgid "&Scripts"
-msgstr "&Skripti"
+msgid "Apply Pre&differ..."
+msgstr ""
 
 #, c-format
 msgid "Sp&lit"
@@ -885,6 +895,9 @@ msgstr "Ra&zdeli"
 #, c-format
 msgid "Comp&are"
 msgstr "P&rimerjaj"
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr "Pr&imerjaj ne-vodoravno..."
@@ -986,11 +999,8 @@ msgid "&Open Left"
 msgstr "&Odpri levo"
 
 #, c-format
-msgid "with &External Editor"
-msgstr "z &zunanjim urejevalnikom"
-
-msgid "Open &Parent Folder..."
-msgstr "Nad&rejena mapa..."
+msgid "With &External Editor"
+msgstr "Z zu&nanjim urejevalnikom"
 
 #, c-format
 msgid "Open Midd&le"
@@ -1072,17 +1082,24 @@ msgstr "&Kopiraj celotno pot"
 msgid "Copy &Filename"
 msgstr "Kopiraj &ime datoteke"
 
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<Brez>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<Samodejno>"
+
+#, c-format
+msgid "&Select..."
+msgstr "&Izberi..."
+
 #, c-format
 msgid "Prediffer Settings"
 msgstr "Nastavitve predogleda razlik"
-
-#, c-format
-msgid "&No prediffer"
-msgstr "&Brez predogleda razlik"
-
-#, c-format
-msgid "Auto prediffer"
-msgstr "Samodejni predogled razlik"
 
 msgid "G&o to Diff"
 msgstr "Pojdi &na razliko"
@@ -1112,6 +1129,10 @@ msgid "Ig&nore all"
 msgstr "Prezri &vse"
 
 #, c-format
+msgid "Ignore blan&k lines"
+msgstr "Prezri prazne &vrstice"
+
+#, c-format
 msgid "Ignore &case"
 msgstr "Prezri &velikost znakov"
 
@@ -1122,6 +1143,9 @@ msgstr "&Prezri različnost vrste znakov za konec vrstice (EOL)"
 #, c-format
 msgid "Ignore codepage &differences"
 msgstr "P&rezri razlike kodnih strani"
+
+msgid "Ignore c&omment differences"
+msgstr "Prezri razlike v k&omentarjih"
 
 #, c-format
 msgid "&Include Subfolders"
@@ -1231,10 +1255,6 @@ msgid " Folder: Filter"
 msgstr " Mapa: Filter"
 
 #, c-format
-msgid "&Select..."
-msgstr "&Izberi..."
-
-#, c-format
 msgid " File: Unpacker Plugin"
 msgstr " Datoteka: Vtičnik razpakovalca"
 
@@ -1275,9 +1295,8 @@ msgstr "Zapri okna s tipko '&Esc':"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "&Samodejno preverjaj pot v pogovornem oknu Odpri"
 
-#, c-format
-msgid "All&ow only one instance to run"
-msgstr "Dovoli zagon &samo enega primerka programa"
+msgid "Single instance mode:"
+msgstr "Način za en primerek:"
 
 #, c-format
 msgid "As&k when closing multiple windows"
@@ -1296,7 +1315,7 @@ msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr "Zapri okno 'Izberi datoteke ali mape' s klikom na gumb 'Vredu'"
 
 #, c-format
-msgid "O&pen-dialog Auto-Completion:"
+msgid "Op&en-dialog Auto-Completion:"
 msgstr "Odpri pogovorno okno &Samodejno dokončanje:"
 
 #, c-format
@@ -1346,7 +1365,8 @@ msgstr "&Najdi naslednje"
 msgid "Find &Prev"
 msgstr "Najdi pre&jšnje"
 
-msgid "&OK"
+#, c-format
+msgid "&Ok"
 msgstr "&Vredu"
 
 #, c-format
@@ -1399,10 +1419,6 @@ msgstr "Nov"
 #, c-format
 msgid "&Background color:"
 msgstr "Bar&va ozadja:"
-
-#, c-format
-msgid "&Ok"
-msgstr "&Vredu"
 
 #, c-format
 msgid "&Apply"
@@ -1525,7 +1541,7 @@ msgstr "&Pošlji izbrisane datoteke v Koš"
 
 #, c-format
 msgid "&External editor:"
-msgstr "&Zunanji urejevalnik:"
+msgstr "Zu&nanji urejevalnik:"
 
 #, c-format
 msgid "&Filter folder:"
@@ -1597,7 +1613,7 @@ msgstr "&Vključi ukazno vrstico"
 
 #, c-format
 msgid "Open to e&xternal editor"
-msgstr "Odpri v zunanjem urejevalniku"
+msgstr "Odpri v zu&nanjem urejevalniku"
 
 #, c-format
 msgid "Defaults"
@@ -1615,16 +1631,11 @@ msgstr "Premakni navz&gor"
 msgid "Move &Down"
 msgstr "Premakni navz&dol"
 
-#, c-format
-msgid "Select Unpacker"
-msgstr "Izberite razpakovalca"
+msgid "Select Plugin"
+msgstr ""
 
-#, c-format
-msgid "File unpacker:"
-msgstr "Razpakovalec datoteke:"
-
-msgid "Display all unpackers, don't check the extension."
-msgstr "Prikaži vse razpakovalce, ne glede na končnico."
+msgid "Plugin &Name:"
+msgstr ""
 
 #, c-format
 msgid "Extensions list:"
@@ -1633,6 +1644,21 @@ msgstr "Seznam končnic:"
 #, c-format
 msgid "Description:"
 msgstr "Opis:"
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all unpackers, don't check the extension."
+msgstr "Prikaži vse razpakovalce, ne glede na končnico."
+
+msgid "&Open files in the same window type after unpacking."
+msgstr ""
+
+msgid "&Plugin Pipeline:"
+msgstr ""
+
+msgid "&Add pipe"
+msgstr ""
 
 #, c-format
 msgid "Stop"
@@ -1703,13 +1729,6 @@ msgid "I&gnore all"
 msgstr "P&rezri vse"
 
 #, c-format
-msgid "Ignore blan&k lines"
-msgstr "Prezri prazne &vrstice"
-
-msgid "Ignore c&omment differences"
-msgstr "Prezri razlike v k&omentarjih"
-
-#, c-format
 msgid "E&nable moved block detection"
 msgstr "Omogoči zazna&vanje premaknjenih blokov"
 
@@ -1718,7 +1737,7 @@ msgid "&Match similar lines"
 msgstr "&Ujemaj enake vrstice"
 
 msgid "Diff &algorithm (Experimental):"
-msgstr "Al&goritem razlik (eksperimen):"
+msgstr "Al&goritem razlik (poskusno):"
 
 msgid "Enable indent &heuristic"
 msgstr "Omogoči &hevristični zamik"
@@ -1858,14 +1877,14 @@ msgid "Select the default codepage assumed when loading non-Unicode files:"
 msgstr "Izberite privzeto dodeljeno kodno stran pri nalaganju ne-Unicode datotek:"
 
 msgid ""
-"Detect codepage info for these files: .html, .rc, .xml\n"
+"Detect codepage info for these type of files: .html, .rc, .xml\n"
 "Need to restart session."
 msgstr ""
 "Zaznaj kodno stran v teh datotekah: .html, .rc, .xml\n"
 "Zahtevan je ponovni zagon seje."
 
 msgid ""
-"Detect codepage for text files using mlang.dll\n"
+"Detect codepage for text files with mlang.dll\n"
 "Need to restart session."
 msgstr ""
 "Zaznaj kodne strani besedilnih datotek z mlang.dll\n"
@@ -2235,6 +2254,12 @@ msgstr "&Omogoči vtičnike"
 msgid "File filters:"
 msgstr "Filtri datotek:"
 
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr ""
+
 #, c-format
 msgid "Shell Integration"
 msgstr "Integracija v lupino"
@@ -2278,7 +2303,7 @@ msgid "Ign&ore time differences less than 3 seconds"
 msgstr "&Prezri razlike manjše od 3 sekund"
 
 #, c-format
-msgid "&Include unique subfolders contents"
+msgid "Include &unique subfolders contents"
 msgstr "&Vključi unikatne vsebine podmap"
 
 #, c-format
@@ -2470,13 +2495,6 @@ msgstr ""
 "WinMerge.PrimerjavaMap\n"
 "WinMerge Primerjava map"
 
-msgid ""
-"Developers:\n"
-"Dean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr ""
-"Razvijalci:\n"
-"Dean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaki, Gal Hammer, Alexander Skinner"
-
 #, c-format
 msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you are welcome to redistribute it under certain circumstances; see the GNU General Public License in the Help menu for details."
 msgstr "WinMerge prihaja POPOLNOMA BREZ GARANCIJE. To je brezplačen program. Dobrodošli ste za njegovo razširjanje pod določenimi pogoji. Več o tem poglejte v GNU licenci v meniju Pomoč."
@@ -2532,12 +2550,12 @@ msgstr "Tega sporočila ne kaži več."
 msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
 msgstr "Za ponovni prikaz tega sporočila, pritisnite 'Ponastavi' na strani 'Splošno' pogovornega okna 'Možnosti'."
 
-msgid "Color Schemes"
-msgstr "Barvne sheme"
-
 #, c-format
 msgid "Syntax"
 msgstr "Sintaksa"
+
+msgid "Color Schemes"
+msgstr "Barvne sheme"
 
 msgid "Folder Compare"
 msgstr "Primerjava map"
@@ -2628,7 +2646,14 @@ msgstr "HTML datoteke (*.htm,*.html)|*.htm;*.html|Vse datoteke (*.*)|*.*||"
 
 #, c-format
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
-msgstr "Datoterke XML (*.xml)|*.xml|Vse datoteke (*.*)|*.*||"
+msgstr "Datoteke XML (*.xml)|*.xml|Vse datoteke (*.*)|*.*||"
+
+msgid "File Type"
+msgstr "Vrsta datoteke"
+
+#, c-format
+msgid "Extension"
+msgstr "Končnica"
 
 #, c-format
 msgid "Name"
@@ -2766,9 +2791,12 @@ msgstr "Njihova datoteka"
 msgid "Mine File"
 msgstr "Vaša datoteka"
 
+msgid "Original File"
+msgstr "Izvirna datoteka"
+
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
-msgstr "Vr: %s  St: %d/%d  Zn: %d/%d  KnV: %s"
+msgstr "Vr: %s  St: %d/%d  Zn: %d/%d  EOL: %s"
 
 #, c-format
 msgid "Line: %s"
@@ -2777,6 +2805,10 @@ msgstr "Vrstica: %s"
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
 msgstr "Vr: %s  St: %d/%d  Zn: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr "  Izb: %d | %d"
 
 #, c-format
 msgid "Merge"
@@ -3012,7 +3044,7 @@ msgid ""
 "is marked read-only. Would you like to override the read-only item?"
 msgstr ""
 "%1\n"
-"je označena Samo-za-branje. Ali želite preglasiti vnos Samo-za-branje?"
+"je označena 'samo-za-branje'. Ali želite preglasiti vnos 'samo-za-branje'?"
 
 #, c-format
 msgid ""
@@ -3237,10 +3269,6 @@ msgid "Middle Date"
 msgstr "Datum srednje"
 
 #, c-format
-msgid "Extension"
-msgstr "Končnica"
-
-#, c-format
 msgid "Left Size"
 msgstr "Leva velikost"
 
@@ -3338,6 +3366,14 @@ msgstr "Prezrte razlike"
 msgctxt "DirView|ColumnHeader"
 msgid "Binary"
 msgstr "Dvojiško"
+
+#, c-format
+msgid "Unpacker"
+msgstr "Razpakovalec"
+
+#, c-format
+msgid "Prediffer"
+msgstr "Predpregled razlik"
 
 #, c-format
 msgid "Unable to compare files"
@@ -3582,6 +3618,12 @@ msgstr "Število razlik v datoteki. Ta številka ne vsebuje prezrtih razlik."
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr "Prikaže zvezdico (*) če je datoteka dvojiška."
 
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr "Primerjaj %1 z %2"
@@ -3644,7 +3686,7 @@ msgid ""
 "\n"
 "Note: If you always want to treat all carriage return types as equivalent, set the option 'Ignore carriage return differences (Windows/Unix/Mac)' in the Compare tab of the options dialog (available under Edit/Options)."
 msgstr ""
-"Ti datoteki imata različno vrsto znakov za konec vrstic (KnD).\n"
+"Ti datoteki imata različno vrsto znakov za konec vrstic.\n"
 "\n"
 "Ali želite obe vrsti obravnavati kot enaki, za trenutno primerjavo?\n"
 "\n"
@@ -3688,6 +3730,12 @@ msgstr "Ali se želite premakniti na naslednjo stran?"
 msgid "Do you want to move to the previous page?"
 msgstr "Ali se želite premakniti na prejšnjo stran?"
 
+msgid "Do you want to move to the first file?"
+msgstr "Ali se želite premakniti v prvo datoteko?"
+
+msgid "Do you want to move to the last file?"
+msgstr "Ali se želite premakniti na zadnjo datoteko?"
+
 #, c-format
 msgid ""
 "Different codepages found in left (cp%d) and right (cp%d) files.\n"
@@ -3700,19 +3748,19 @@ msgstr ""
 
 #, c-format
 msgid "Information lost due to encoding errors: both files"
-msgstr "Izgubljene informacije pri kodiranju: obe datoteki"
+msgstr "Izgubljeni podatki pri kodiranju: obe datoteki"
 
 #, c-format
 msgid "Information lost due to encoding errors: first file"
-msgstr "Izgubljene informacije zaradi napak pri kodiranju: prva datoteka"
+msgstr "Izgubljeni podatki zaradi napak pri kodiranju: prva datoteka"
 
 #, c-format
 msgid "Information lost due to encoding errors: second file"
-msgstr "Izgubljene informacije zaradi napak pri kodiranju: druga datoteka"
+msgstr "Izgubljeni podatki zaradi napak pri kodiranju: druga datoteka"
 
 #, c-format
 msgid "Information lost due to encoding errors: third file"
-msgstr "Izgubljene informacije zaradi napak pri kodiranju: tretja datoteka"
+msgstr "Izgubljeni podatki zaradi napak pri kodiranju: tretja datoteka"
 
 #, c-format
 msgid "No difference"
@@ -3763,7 +3811,7 @@ msgstr "Podokno razlik"
 
 #, c-format
 msgid "Patch file successfully written."
-msgstr "Datoteka poročila je bila uspešno zapisana."
+msgstr "Datoteka popravka je bila uspešno zapisana."
 
 msgid "1. item is not found!"
 msgstr "1. vnosa ni mogoče najti!"
@@ -3891,14 +3939,6 @@ msgid "Type"
 msgstr "Vrsta"
 
 #, c-format
-msgid "Unpacker"
-msgstr "Razpakovalec"
-
-#, c-format
-msgid "Prediffer"
-msgstr "Predpregled razlik"
-
-#, c-format
 msgid "Editor script"
 msgstr "Urejevalnik skriptov"
 
@@ -3988,7 +4028,7 @@ msgid ""
 "Copy Right (Alt+Right)"
 msgstr ""
 "\n"
-"Kopiraj desno (Alt+Right)"
+"Kopiraj desno (Alt+Desno)"
 
 #, c-format
 msgid ""
@@ -3996,7 +4036,7 @@ msgid ""
 "Copy Left (Alt+Left)"
 msgstr ""
 "\n"
-"Kopiraj levo (Alt+Left)"
+"Kopiraj levo (Alt+Levo)"
 
 #, c-format
 msgid ""
@@ -4004,7 +4044,7 @@ msgid ""
 "Copy Right and Advance (Ctrl+Alt+Right)"
 msgstr ""
 "\n"
-"Kopiraj desno in naprej (Ctrl+Alt+Right)"
+"Kopiraj desno in naprej (Ctrl+Alt+Desno)"
 
 #, c-format
 msgid ""
@@ -4012,7 +4052,7 @@ msgid ""
 "Copy Left and Advance (Ctrl+Alt+Left)"
 msgstr ""
 "\n"
-"Kopiraj levo in naprej (Ctrl+Alt+Left)"
+"Kopiraj levo in naprej (Ctrl+Alt+Levo)"
 
 #, c-format
 msgid ""
@@ -4047,10 +4087,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Next File"
+"Next File (Ctrl+F8)"
 msgstr ""
 "\n"
-"Naslednja datoteka"
+"Naslednja datoteka (Ctrl+F8)"
 
 msgid ""
 "\n"
@@ -4061,10 +4101,10 @@ msgstr ""
 
 msgid ""
 "\n"
-"Previous File"
+"Previous File (Ctrl+F7)"
 msgstr ""
 "\n"
-"Prejšnja datoteka"
+"Prejšnja datoteka (Ctrl+F7)"
 
 msgid "The adapted unpacker is applied to both files (one file only needs the extension)."
 msgstr "Prilagojen razpakovalec se uporablja za obe datoteki (samo ena datoteka potrebuje končnico)."
@@ -4107,14 +4147,6 @@ msgstr "Nastavitve vtičnika"
 #, c-format
 msgid "WSH not found - .sct scripts disabled"
 msgstr "WSH ni najden - skripti '.sct' so onemogočeni"
-
-#, c-format
-msgid "<None>"
-msgstr "<Brez>"
-
-#, c-format
-msgid "<Automatic>"
-msgstr "<Samodejno>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -4342,3 +4374,122 @@ msgstr "Položaj vrstico po vrstico in besedilo"
 msgid "Word-by-word position and text"
 msgstr "Položaj besedo po besedo in besedilo"
 
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "Dovoli zagon samo enega primerka programa"
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr "Dovoli zagon le enega primerka, in počakaj, da se primerek dokonča"
+
+msgid "Al&l"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""

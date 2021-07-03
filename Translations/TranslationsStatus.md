@@ -1,47 +1,47 @@
 # Translations Status
 
-Status from **2021-01-29**:
+Status from **2021-07-03**:
 
 ## WinMerge
 
 | Language             | Total | Translated | Fuzzy | Untranslated | Complete | Last Update |
 |:---------------------|------:|-----------:|------:|-------------:|---------:|:-----------:|
-| Arabic               |  1023 |        917 |     0 |          106 |     90 % |  2019-12-30 |
-| Basque               |  1023 |        652 |     0 |          371 |     64 % |  2013-02-03 |
-| Brazilian            |  1023 |        984 |     0 |           39 |     96 % |  2020-07-26 |
-| Bulgarian            |  1023 |        888 |     0 |          135 |     87 % |  2019-10-24 |
-| Catalan              |  1023 |        576 |     0 |          447 |     56 % |             |
-| ChineseSimplified    |  1023 |        990 |     0 |           33 |     97 % |             |
-| ChineseTraditional   |  1023 |        870 |     0 |          153 |     85 % |  2010-02-19 |
-| Croatian             |  1023 |        643 |     1 |          379 |     63 % |  2009-02-13 |
-| Czech                |  1023 |        614 |     0 |          409 |     60 % |             |
-| Danish               |  1023 |        652 |     0 |          371 |     64 % |  2013-01-13 |
-| Dutch                |  1022 |       1022 |     0 |            0 |    100 % |  2018-09-06 |
-| English              |  1023 |       1023 |     0 |            0 |    100 % |  2021-01-27 |
-| Finnish              |  1023 |        917 |     0 |          106 |     90 % |             |
-| French               |  1023 |        910 |     2 |          111 |     89 % |  2019-06-02 |
-| Galician             |  1023 |       1014 |     0 |            9 |     99 % |  2021-01-22 |
-| German               |  1023 |       1014 |     0 |            9 |     99 % |  2021-01-18 |
-| Greek                |  1023 |        615 |     0 |          408 |     60 % |             |
-| Hungarian            |  1023 |        548 |     0 |          475 |     54 % |  2011-01-24 |
-| Italian              |  1023 |        920 |     0 |          103 |     90 % |  2019-07-12 |
-| Japanese             |  1023 |       1023 |     0 |            0 |    100 % |  2021-01-26 |
-| Korean               |  1023 |        874 |     0 |          149 |     85 % |  2018-02-05 |
-| Lithuanian           |  1023 |       1014 |     0 |            9 |     99 % |  2021-01-19 |
-| Norwegian            |  1023 |        644 |     0 |          379 |     63 % |             |
-| Persian              |  1023 |        655 |     0 |          368 |     64 % |  2013-08-15 |
-| Polish               |  1023 |        960 |     0 |           63 |     94 % |             |
-| Portuguese           |  1023 |        995 |     0 |           28 |     97 % |  2020-11-29 |
-| Romanian             |  1023 |        573 |    44 |          406 |     60 % |             |
-| Russian              |  1023 |        997 |     0 |           26 |     97 % |  2020-11-29 |
-| Serbian              |  1023 |        643 |     0 |          380 |     63 % |             |
-| Sinhala              |  1023 |        573 |    63 |          387 |     62 % |  2010-12-12 |
-| Slovak               |  1023 |        990 |     0 |           33 |     97 % |  2020-11-02 |
-| Slovenian            |  1023 |       1023 |     0 |            0 |    100 % |  2021-01-27 |
-| Spanish              |  1023 |        886 |     0 |          137 |     87 % |  2020-04-03 |
-| Swedish              |  1023 |        920 |     0 |          103 |     90 % |  2019-10-07 |
-| Turkish              |  1023 |        986 |     0 |           37 |     96 % |  2020-09-08 |
-| Ukrainian            |  1023 |        649 |     0 |          374 |     63 % |  2009-06-13 |
+| Arabic               |  1075 |        908 |     0 |          167 |     84 % |  2019-12-30 |
+| Basque               |  1075 |        644 |     0 |          431 |     60 % |  2013-02-03 |
+| Brazilian            |  1075 |       1024 |     0 |           51 |     95 % |  2021-02-14 |
+| Bulgarian            |  1075 |        972 |     0 |          103 |     90 % |  2021-06-28 |
+| Catalan              |  1075 |        570 |     0 |          505 |     53 % |             |
+| ChineseSimplified    |  1075 |        981 |     0 |           94 |     91 % |             |
+| ChineseTraditional   |  1075 |        861 |     0 |          214 |     80 % |  2010-02-19 |
+| Croatian             |  1075 |        635 |     1 |          439 |     59 % |  2009-02-13 |
+| Czech                |  1075 |        610 |     0 |          465 |     57 % |             |
+| Danish               |  1075 |        644 |     0 |          431 |     60 % |  2013-01-13 |
+| Dutch                |  1075 |       1070 |     0 |            5 |    100 % |  2018-09-06 |
+| English              |  1076 |       1076 |     0 |            0 |    100 % |  2021-07-03 |
+| Finnish              |  1075 |        908 |     0 |          167 |     84 % |             |
+| French               |  1075 |       1025 |     0 |           50 |     95 % |  2021-04-29 |
+| Galician             |  1075 |       1025 |     0 |           50 |     95 % |  2021-04-18 |
+| German               |  1075 |       1025 |     0 |           50 |     95 % |  2021-04-24 |
+| Greek                |  1075 |        608 |     0 |          467 |     57 % |             |
+| Hungarian            |  1075 |       1055 |     0 |           20 |     98 % |  2021-03-15 |
+| Italian              |  1075 |        911 |     0 |          164 |     85 % |  2019-07-12 |
+| Japanese             |  1075 |       1074 |     0 |            1 |    100 % |  2021-06-26 |
+| Korean               |  1075 |        993 |     0 |           82 |     92 % |  2021-03-30 |
+| Lithuanian           |  1075 |       1073 |     0 |            2 |    100 % |  2021-06-28 |
+| Norwegian            |  1075 |        636 |     0 |          439 |     59 % |             |
+| Persian              |  1075 |        647 |     0 |          428 |     60 % |  2013-08-15 |
+| Polish               |  1075 |       1015 |     0 |           60 |     94 % |             |
+| Portuguese           |  1075 |       1071 |     0 |            4 |    100 % |  2021-06-25 |
+| Romanian             |  1075 |        565 |    44 |          466 |     57 % |             |
+| Russian              |  1075 |       1051 |     0 |           24 |     98 % |  2021-06-25 |
+| Serbian              |  1075 |        635 |     0 |          440 |     59 % |             |
+| Sinhala              |  1075 |        569 |    59 |          447 |     58 % |  2010-12-12 |
+| Slovak               |  1075 |        981 |     0 |           94 |     91 % |  2020-11-02 |
+| Slovenian            |  1075 |       1025 |     0 |           50 |     95 % |  2021-04-24 |
+| Spanish              |  1075 |        877 |     0 |          198 |     82 % |  2020-04-03 |
+| Swedish              |  1075 |       1024 |     0 |           51 |     95 % |  2021-04-10 |
+| Turkish              |  1075 |       1070 |     0 |            5 |    100 % |  2021-06-25 |
+| Ukrainian            |  1075 |        641 |     0 |          434 |     60 % |  2009-06-13 |
 
 ## ShellExtension
 
@@ -64,7 +64,7 @@ Status from **2021-01-29**:
 | Galician             |    12 |         12 |     0 |            0 |    100 % |             |
 | German               |    12 |         12 |     0 |            0 |    100 % |  2019-02-01 |
 | Greek                |    12 |         12 |     0 |            0 |    100 % |             |
-| Hungarian            |    12 |          3 |     0 |            9 |     25 % |             |
+| Hungarian            |    12 |         12 |     0 |            0 |    100 % |             |
 | Italian              |    12 |         12 |     0 |            0 |    100 % |             |
 | Japanese             |    12 |         12 |     0 |            0 |    100 % |             |
 | Korean               |    12 |          3 |     0 |            9 |     25 % |             |
@@ -201,10 +201,12 @@ Status from **2021-01-29**:
    - Michel Coene
 
  * French
-   - [Jean-F Jolin](mailto:jean-f-j%20at%20users.sourceforge.net) *Maintainer*
+   - [Lolo S.](mailto:slolo2000%20at%20hotmail.com) *Maintainer*
    - [Gil Andre](mailto:gil_andre%20at%20compuserve.com)
    - [Laurent Ganier](mailto:ccganier%20at%20club-internet.fr)
    - [Dominique Saussereau](mailto:redguff%20at%20users.sourceforge.net)
+   - [Jean-F Jolin](mailto:jean-f-j%20at%20users.sourceforge.net)
+   - [Lolo S.](mailto:slolo2000%20at%20hotmail.com)
 
  * Galician
    - [Medulio](mailto:medulio%20at%20ciberirmandade.org)
@@ -221,6 +223,7 @@ Status from **2021-01-29**:
  * Hungarian
    - [Márton Balázs](mailto:documan%20at%20users.sourceforge.net)
    - [Mihalicza József](mailto:jmihalicza%20at%20gmail.com)
+   - [Egyed Ferenc](mailto:efi99%20at%20freemail.hu)
 
  * Italian
    - [Michele Merega](mailto:michele.merega%20at%20ifminfomaster.com)
@@ -236,6 +239,7 @@ Status from **2021-01-29**:
    - [Lee Jae-Hong](mailto:pyrasis%20at%20users.sourceforge.net)
    - [Sushizang](mailto:sushizang%20at%20empal.com)
    - [sheppaul](mailto:sheppaul%20at%20gmail.com)
+   - [teamzamong](mailto:teamzamong%20at%20gmail.com)
 
  * Lithuanian
    - [Dalius Guzauskas (aka Tichij)](mailto:tichij%20AT%20mail%20DOT%20com)

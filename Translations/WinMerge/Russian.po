@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: https://bugs.winmerge.org/\n"
-"POT-Creation-Date: 2020-11-25 21:32+0000\n"
-"PO-Revision-Date: 2020-11-29 09:09+0200\n"
+"POT-Creation-Date: 2021-06-24 20:41+0000\n"
+"PO-Revision-Date: 2021-06-25 00:00+0000\n"
 "Last-Translator: wvxwxvw\n"
 "Language-Team: Russian <winmerge-translate@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -40,11 +40,23 @@ msgstr "Копировать слева"
 msgid "Copy fro&m Right"
 msgstr "Копировать справа"
 
-msgid "&Select Line Difference\tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr "Копировать выбранные строки вправо"
+
+msgid "Copy Selected Line(s) to Left"
+msgstr "Копировать выбранные строки влево"
+
+msgid "Copy Selected Line(s) from Left"
+msgstr "Копировать выбранные строки слева"
+
+msgid "Copy Selected Line(s) from Right"
+msgstr "Копировать выбранные строки справа"
+
+msgid "Select Line &Difference\tF4"
 msgstr "&Выбрать отличие\tF4"
 
 msgid "Add this change to Substitution &Filters"
-msgstr ""
+msgstr "Добавить это изменение в &фильтры замены"
 
 msgid "&Undo"
 msgstr "&Отменить"
@@ -60,6 +72,12 @@ msgstr "&Копировать"
 
 msgid "&Paste"
 msgstr "&Вставить"
+
+msgid "&Scripts"
+msgstr "&Скрипты"
+
+msgid "< Empty >"
+msgstr "< Нет >"
 
 msgid "&Go to...\tCtrl+G"
 msgstr "Перейти к...\tCtrl+G"
@@ -81,6 +99,9 @@ msgstr "Внешним редактором\tCtrl+Alt+E"
 
 msgid "&With..."
 msgstr "С помощью..."
+
+msgid "Open &Parent Folder..."
+msgstr "Открыть &родительскую папку..."
 
 msgid "S&hell Menu"
 msgstr "Меню оболочки"
@@ -120,7 +141,7 @@ msgstr "&Масштаб"
 
 #, c-format
 msgid "25%"
-msgstr "25%"
+msgstr ""
 
 msgid "Zoom &In\tCtrl++"
 msgstr "Увеличить\tCtrl++"
@@ -157,7 +178,7 @@ msgid "&Horizontal Wipe"
 msgstr "Горизонтальное стирание"
 
 msgid "&Rectangle Select"
-msgstr ""
+msgstr "&Прямоугольный выбор"
 
 msgid "&Set Background Color"
 msgstr "Цвет фона"
@@ -166,7 +187,7 @@ msgid "&Vector Image Scaling"
 msgstr "&Масштаб изображений"
 
 msgid "Compare Extracted &Text From Image"
-msgstr ""
+msgstr "Сравнить извлеченный из изображения текст"
 
 msgid "&File"
 msgstr "&Файл"
@@ -206,9 +227,6 @@ msgstr "Недавние проекты"
 
 msgid "Recent F&iles Or Folders"
 msgstr "Недавние файлы и папки"
-
-msgid "< Empty >"
-msgstr "< Нет >"
 
 msgid "E&xit\tCtrl+Q"
 msgstr "В&ыход\tCtrl+Q"
@@ -324,7 +342,7 @@ msgstr "Середина только для чтения"
 msgid "Ri&ght Read-only"
 msgstr "С&права только для чтения"
 
-msgid "File En&coding..."
+msgid "&File Encoding..."
 msgstr "Кодировка файла..."
 
 msgid "Select &All\tCtrl+A"
@@ -405,7 +423,7 @@ msgstr "Поменять 1-й | &3-й"
 msgid "Com&pare Statistics..."
 msgstr "Статистика сравнения..."
 
-msgid "Refre&sh\tF5"
+msgid "Refresh\tF5"
 msgstr "&Обновить\tF5"
 
 msgid "&Refresh Selected\tCtrl+F5"
@@ -495,14 +513,8 @@ msgstr "Режим объединения\tF9"
 msgid "Re&load\tCtrl+F5"
 msgstr "Обновить\tCtrl+F5"
 
-msgid "&File Encoding..."
-msgstr "Кодировка файла..."
-
 msgid "Reco&mpare As"
 msgstr "Пересравнить как"
-
-msgid "&XML"
-msgstr "&XML"
 
 msgid "&Undo\tCtrl+Z"
 msgstr "&Отменить\tCtrl+Z"
@@ -518,9 +530,6 @@ msgstr "&Копировать\tCtrl+C"
 
 msgid "&Paste\tCtrl+V"
 msgstr "&Вставить\tCtrl+V"
-
-msgid "Select Line &Difference\tF4"
-msgstr "Выбрать отличие\tF4"
 
 msgid "F&ind...\tCtrl+F"
 msgstr "&Найти...\tCtrl+F"
@@ -583,7 +592,7 @@ msgid "&Toggle All and 0-9 Lines\tCtrl+D"
 msgstr "Переключить все и 0-9 строк\tCtrl+D"
 
 msgid "&Invert (Hide Different Lines)"
-msgstr ""
+msgstr "Инвертировать (скрыть отличные строки)"
 
 msgid "&Lock Panes"
 msgstr "Заблокировать панели"
@@ -687,17 +696,23 @@ msgstr "Добавить точку синхронизации\tAlt+S"
 msgid "Clear Sync&hronization Points"
 msgstr "Очистить точки синхронизации"
 
+msgid "Unpac&ker"
+msgstr "Распаковщик"
+
 msgid "&Prediffer"
 msgstr "&Предсравнение"
 
-msgid "&Scripts"
-msgstr "&Скрипты"
+msgid "Apply Pre&differ..."
+msgstr "Применить предсравнение..."
 
 msgid "Sp&lit"
 msgstr "Разделить"
 
 msgid "Comp&are"
 msgstr "С&равнить"
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr "Сравнить не по горизонтали..."
@@ -783,11 +798,8 @@ msgstr "&Скрыть"
 msgid "&Open Left"
 msgstr "Открыть левый"
 
-msgid "with &External Editor"
-msgstr "внешним редактором"
-
-msgid "Open &Parent Folder..."
-msgstr "Открыть &родительскую папку..."
+msgid "With &External Editor"
+msgstr "Внешним редактором"
 
 msgid "Open Midd&le"
 msgstr "Открыть средний"
@@ -857,14 +869,20 @@ msgstr "Копировать полный путь"
 msgid "Copy &Filename"
 msgstr "Копировать имя файла"
 
+msgid "Unpacker Settings"
+msgstr "Параметры распаковщика"
+
+msgid "<None>"
+msgstr "<Нет>"
+
+msgid "<Automatic>"
+msgstr "<Автоматически>"
+
+msgid "&Select..."
+msgstr "Выбрать..."
+
 msgid "Prediffer Settings"
 msgstr "Параметры предсравнения"
-
-msgid "&No prediffer"
-msgstr "&Без предсравнения"
-
-msgid "Auto prediffer"
-msgstr "&Автопредсравнение"
 
 msgid "G&o to Diff"
 msgstr "Перейти к &отличию"
@@ -887,6 +905,9 @@ msgstr "Игнорировать изменения"
 msgid "Ig&nore all"
 msgstr "Игнорировать все"
 
+msgid "Ignore blan&k lines"
+msgstr "Игнорировать пуст&ые строки"
+
 msgid "Ignore &case"
 msgstr "Игнорировать р&егистр"
 
@@ -895,6 +916,9 @@ msgstr "Игнорировать концы строк (Win/Unix/Mac)"
 
 msgid "Ignore codepage &differences"
 msgstr "Игнорировать отличия кодовых страниц"
+
+msgid "Ignore c&omment differences"
+msgstr "Игнорировать отличия в комментариях"
 
 msgid "&Include Subfolders"
 msgstr "&Включая подпапки"
@@ -977,9 +1001,6 @@ msgstr "Обзор..."
 msgid " Folder: Filter"
 msgstr " Папка: Фильтр"
 
-msgid "&Select..."
-msgstr "Выбрать..."
-
 msgid " File: Unpacker Plugin"
 msgstr " Файл: плагин распаковщика"
 
@@ -1013,8 +1034,8 @@ msgstr "За&крывать окна клавишей 'Esc':"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "Автопроверка пути в диалоге открытия файлов"
 
-msgid "All&ow only one instance to run"
-msgstr "&Разрешить запуск только одной копии"
+msgid "Single instance mode:"
+msgstr "Режим одной копии:"
 
 msgid "As&k when closing multiple windows"
 msgstr "Подтверждать закрытие окон"
@@ -1028,7 +1049,7 @@ msgstr "Показывать диалог \"Выбрать файлы или п�
 msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr "Закрывать диалог \"Выбрать файлы или папки\" при нажатии ОК"
 
-msgid "O&pen-dialog Auto-Completion:"
+msgid "Op&en-dialog Auto-Completion:"
 msgstr "Автозавершение в диалоге открытия:"
 
 msgid "Language:"
@@ -1067,8 +1088,8 @@ msgstr "Следующее"
 msgid "Find &Prev"
 msgstr "Предыдущее"
 
-msgid "&OK"
-msgstr "&OK"
+msgid "&Ok"
+msgstr "&Ok"
 
 msgid "Replace"
 msgstr "Заменить"
@@ -1109,9 +1130,6 @@ msgstr "Создать"
 msgid "&Background color:"
 msgstr "Цвет фона:"
 
-msgid "&Ok"
-msgstr "&Ok"
-
 msgid "&Apply"
 msgstr "&Применить"
 
@@ -1131,10 +1149,10 @@ msgid "Remove"
 msgstr "Удалить"
 
 msgid "Substitution Filters"
-msgstr ""
+msgstr "Фильтры замены"
 
 msgid "The changes that appear on the panels as the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
-msgstr "Изменения в тексте соответсвующие парам в списке ниже будут игнорироваться"
+msgstr "Изменения в тексте соответсвующие парам, в списке ниже, будут игнорироваться"
 
 msgid "Enable"
 msgstr "Включено"
@@ -1280,20 +1298,32 @@ msgstr "&Вверх"
 msgid "Move &Down"
 msgstr "В&низ"
 
-msgid "Select Unpacker"
-msgstr "Выбор распаковщика"
+msgid "Select Plugin"
+msgstr "Выбрать плагин"
 
-msgid "File unpacker:"
-msgstr "Файл распаковщика:"
-
-msgid "Display all unpackers, don't check the extension."
-msgstr "Показывать все распаковщики, не проверять расширение."
+msgid "Plugin &Name:"
+msgstr "Имя плагина:"
 
 msgid "Extensions list:"
 msgstr "Список расширений:"
 
 msgid "Description:"
 msgstr "Описание:"
+
+msgid "Default arguments:"
+msgstr "Аргументы по умолчанию:"
+
+msgid "Display all unpackers, don't check the extension."
+msgstr "Показывать все распаковщики, не проверять расширение."
+
+msgid "&Open files in the same window type after unpacking."
+msgstr "Открыть файлы в том же типе окна после распаковки."
+
+msgid "&Plugin Pipeline:"
+msgstr "Конвейер плагинов:"
+
+msgid "&Add pipe"
+msgstr "Добавить конвейер"
 
 msgid "Stop"
 msgstr "Остановить"
@@ -1349,12 +1379,6 @@ msgstr "Игнорировать измененные невидимые"
 msgid "I&gnore all"
 msgstr "Игнорировать &все невидимые"
 
-msgid "Ignore blan&k lines"
-msgstr "Игнорировать пуст&ые строки"
-
-msgid "Ignore c&omment differences"
-msgstr "Игнорировать отличия в комментариях"
-
 msgid "E&nable moved block detection"
 msgstr "Обнаружение переме&щенных блоков"
 
@@ -1368,7 +1392,7 @@ msgid "Enable indent &heuristic"
 msgstr "Включать эвристику отступов"
 
 msgid "Completely unhighlight the ignored differences"
-msgstr ""
+msgstr "Вообще не подсвечивать игнорируемые различия"
 
 msgid "Editor"
 msgstr "Редактор"
@@ -1472,11 +1496,11 @@ msgstr "Кодовая страница по умолчанию"
 msgid "Select the default codepage assumed when loading non-Unicode files:"
 msgstr "Выберите кодовую страницу по умолчанию, для не Юникод-файлов:"
 
-msgid "Detect codepage info for these files: .html, .rc, .xml\nNeed to restart session."
-msgstr "Определять кодировку для этих файлов: .html, .rc, .xml \nНеобходим перезапуск сессии."
+msgid "Detect codepage info for these type of files: .html, .rc, .xml\nNeed to restart session."
+msgstr "Определять кодировку для типов файлов: .html, .rc, .xml \nНеобходим перезапуск сессии."
 
-msgid "Detect codepage for text files using mlang.dll\nNeed to restart session."
-msgstr "Определять кодовую страницу для текстовых файлов с помощью mlang.dll\nНеобходим перезапуск сессии."
+msgid "Detect codepage for text files with mlang.dll\nNeed to restart session."
+msgstr "Определять кодировку для текстовых файлов с помощью mlang.dll\nНеобходим перезапуск сессии."
 
 msgid "System codepage"
 msgstr "Системная кодовая страница"
@@ -1671,10 +1695,10 @@ msgid "File type"
 msgstr "Тип файла"
 
 msgid "&CSV"
-msgstr "&CSV"
+msgstr ""
 
 msgid "&TSV"
-msgstr "&TSV"
+msgstr ""
 
 msgid "Custom &Delimiter-Separated Values"
 msgstr "Свои значения разделителей"
@@ -1760,6 +1784,12 @@ msgstr "&Включить плагины"
 msgid "File filters:"
 msgstr "Фильтры файлов:"
 
+msgid "&Plugin arguments:"
+msgstr "Аргументы плагина:"
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr "Включить авто распаковку/предсравнение для плагина"
+
 msgid "Shell Integration"
 msgstr "Интеграция в оболочку"
 
@@ -1794,7 +1824,7 @@ msgstr "&Останавливаться после первого отличия
 msgid "Ign&ore time differences less than 3 seconds"
 msgstr "Игнорировать разницу времени менее 3 секунд"
 
-msgid "&Include unique subfolders contents"
+msgid "Include &unique subfolders contents"
 msgstr "Включая уникальное содержимое подпапок"
 
 msgid "&Automatically expand all subfolders"
@@ -1853,28 +1883,28 @@ msgid "&Enable image compare in folder compare"
 msgstr "Cравнивать изображения в папках сравнения"
 
 msgid "OCR result:"
-msgstr ""
+msgstr "Результат OCR"
 
 msgid "&Hex View"
 msgstr "&Hex"
 
 msgid "EXT"
-msgstr "EXT"
+msgstr ""
 
 msgid "CAP"
-msgstr "CAP"
+msgstr ""
 
 msgid "NUM"
-msgstr "NUM"
+msgstr ""
 
 msgid "SCRL"
-msgstr "SCRL"
+msgstr ""
 
 msgid "OVR"
-msgstr "OVR"
+msgstr ""
 
 msgid "REC"
-msgstr "REC"
+msgstr ""
 
 msgid "\nNew Documents (Ctrl+N)"
 msgstr "\nСоздать документы (Ctrl+N)"
@@ -1908,9 +1938,6 @@ msgstr "\nFileCompare\n\n\n\nWinMerge.FileCompare\nWinMerge Сравнение �
 
 msgid "\nFolderCompare\n\n\n\nWinMerge.FolderCompare\nWinMerge Folder Compare"
 msgstr "\nFolderCompare\n\n\n\nWinMerge.FolderCompare\nWinMerge Сравнение Папок"
-
-msgid "Developers:\nDean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr "Разработчики:\nДин Гримм (Dean Grimm), Кристиан Лист (Christian List), Киммо Варис (Kimmo Varis), Йохен Тухт (Jochen Tucht), Тим Герундт (Tim Gerundt), Такаши Саванака (Takashi Sawanaka), Гэл Хаммер (Gal Hammer), Александр Скиннер (Alexander Skinner)"
 
 msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you are welcome to redistribute it under certain circumstances; see the GNU General Public License in the Help menu for details."
 msgstr "WinMerge поставляется БЕЗ КАКОЙ-ЛИБО ГАРАНТИИ. Это свободное ПО и мы приветствуем его распространение согласно некоторых условий; ознакомьтесь с GNU General Public License в меню Помощь для более подробной информации."
@@ -1954,11 +1981,11 @@ msgstr "Не показывать &больше."
 msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
 msgstr "Чтобы снова показывать это сообщение, нажмите кнопку Сброс на странице настроек Общие."
 
-msgid "Color Schemes"
-msgstr "Цветовая схема"
-
 msgid "Syntax"
 msgstr "Синтаксис"
+
+msgid "Color Schemes"
+msgstr "Цветовая схема"
 
 msgid "Folder Compare"
 msgstr "Сравнение папок"
@@ -1992,7 +2019,7 @@ msgid "Version %1"
 msgstr "Версия %1"
 
 msgid "X64"
-msgstr "X64"
+msgstr ""
 
 #, c-format
 msgid "Options (%1)"
@@ -2029,17 +2056,23 @@ msgstr "Файлы HTML (*.htm,*.html)|*.htm;*.html|Все файлы (*.*)|*.*|
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
 msgstr "Файлы XML (*.xml)|*.xml|Все файлы (*.*)|*.*||"
 
+msgid "File Type"
+msgstr "Тип файла"
+
+msgid "Extension"
+msgstr "Расширение"
+
 msgid "Name"
 msgstr "Имя"
 
 msgid "Location"
-msgstr "Положение"
+msgstr "Расоложение"
 
 msgid "Filters"
 msgstr "Фильтры"
 
 msgid "[F] "
-msgstr "[F] "
+msgstr ""
 
 msgid "Description"
 msgstr "Описание"
@@ -2096,13 +2129,16 @@ msgid "Untitled right"
 msgstr "Безымянный справа"
 
 msgid "Base File"
-msgstr ""
+msgstr "Базовый файл"
 
 msgid "Theirs File"
 msgstr "Их файл"
 
 msgid "Mine File"
 msgstr "Мой файл"
+
+msgid "Original File"
+msgstr "Исходный файл"
 
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
@@ -2115,6 +2151,10 @@ msgstr "Строка: %s"
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
 msgstr "Стр: %s  Стб: %d/%d  Симв: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr ""
 
 msgid "Merge"
 msgstr "Объединение"
@@ -2132,7 +2172,7 @@ msgstr "Найдено всего одно отличие"
 
 #. Abbreviation from "Read Only"
 msgid "RO"
-msgstr "RO"
+msgstr ""
 
 #, c-format
 msgid "Item %1 of %2"
@@ -2230,15 +2270,15 @@ msgstr "Сбой сохранения файла.\n%1\n%2\nХотите:\n\t- и
 
 #, c-format
 msgid "Plugin '%2' cannot pack your changes to the left file back into '%1'.\n\nThe original file will not be changed.\n\nDo you want to save the unpacked version to another file?"
-msgstr "Плагин '%2' не может упаковать изменения обратно в файл слева '%1'.\n\nИсходный файл не будет изменен.\n\nСохранить распакованную версию в другой файл?"
+msgstr "Плагин '%2' не может упаковать ваши изменения из левого файла обратно в '%1'.\n\nИсходный файл не будет изменен.\n\nСохранить распакованную версию в другой файл?"
 
 #, c-format
 msgid "Plugin '%2' cannot pack your changes to the middle file back into '%1'.\n\nThe original file will not be changed.\n\nDo you want to save the unpacked version to another file?"
-msgstr ""
+msgstr "Плагин '%2' не может упаковать ваши изменения из среднего файла обратно в '%1'.\n\nИсходный файл не будет изменен.\n\nСохранить распакованную версию в другой файл?"
 
 #, c-format
 msgid "Plugin '%2' cannot pack your changes to the right file back into '%1'.\n\nThe original file will not be changed.\n\nDo you want to save the unpacked version to another file?"
-msgstr "Плагин '%2' не может упаковать изменения обратно в файл справа '%1'.\n\nИсходный файл не будет изменен.\n\nСохранить распакованную версию в другой файл?"
+msgstr "Плагин '%2' не может упаковать ваши изменения из правого файла обратно в '%1'.\n\nИсходный файл не будет изменен.\n\nСохранить распакованную версию в другой файл?"
 
 #, c-format
 msgid "Another application has updated file\n%1\nsince WinMerge loaded it.\n\nOverwrite changed file?"
@@ -2413,9 +2453,6 @@ msgstr "Дата справа"
 msgid "Middle Date"
 msgstr "Дата посередине"
 
-msgid "Extension"
-msgstr "Расширение"
-
 msgid "Left Size"
 msgstr "Размер слева"
 
@@ -2491,6 +2528,12 @@ msgstr "Игнор. отличия"
 msgctxt "DirView|ColumnHeader"
 msgid "Binary"
 msgstr "Двоичный"
+
+msgid "Unpacker"
+msgstr "Распаковщик"
+
+msgid "Prediffer"
+msgstr "Предсравнение"
 
 msgid "Unable to compare files"
 msgstr "Не удается сравнить файлы"
@@ -2684,6 +2727,12 @@ msgstr "Количество отличий в файле. Это количес
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr "Показать звездочку (*) если файл двоичный."
 
+msgid "Unpacker plugin name or pipeline."
+msgstr "Имя плагина распаковщика или конвейера."
+
+msgid "Prediffer plugin name or pipeline."
+msgstr "Имя плагина предсравнения или конвейера."
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr "Сравнение %1 с %2"
@@ -2714,7 +2763,7 @@ msgid "Cannot add a synchronization point at this line."
 msgstr "Невозможно добавить точку синхронизации в этой строке."
 
 msgid "The same file is opened in both panels."
-msgstr "На обоих панелях открыт один и тот же файл."
+msgstr "На обеих панелях открыт один и тот же файл."
 
 msgid "The selected files are identical."
 msgstr "Выбранные файлы идентичны."
@@ -2749,6 +2798,12 @@ msgstr "Перейти к следующей странице?"
 
 msgid "Do you want to move to the previous page?"
 msgstr "Перейти к предыдущей странице?"
+
+msgid "Do you want to move to the first file?"
+msgstr "Перейти к первому файлу?"
+
+msgid "Do you want to move to the last file?"
+msgstr "Перейти к последнему файлу?"
 
 #, c-format
 msgid "Different codepages found in left (cp%d) and right (cp%d) files.\nDisplaying each file in its codepage will give a better display but merging/copying will be dangerous.\nWould you like to treat both files as being in the default Windows codepage (recommended)?"
@@ -2897,12 +2952,6 @@ msgstr "Новый шаблон"
 msgid "Type"
 msgstr "Тип"
 
-msgid "Unpacker"
-msgstr "Распаковщик"
-
-msgid "Prediffer"
-msgstr "Предсравнение"
-
 msgid "Editor script"
 msgstr "Редактор скриптов"
 
@@ -2958,16 +3007,16 @@ msgid "\nAuto Merge (Ctrl+Alt+M)"
 msgstr "\nАвто объединение (Ctrl+Alt+M)"
 
 msgid "\nFirst File"
-msgstr ""
+msgstr "\nПервый файл"
 
-msgid "\nNext File"
-msgstr ""
+msgid "\nNext File (Ctrl+F8)"
+msgstr "\nСледующий файл (Ctrl+F8)"
 
 msgid "\nLast File"
-msgstr ""
+msgstr "\nПоследний файл"
 
-msgid "\nPrevious File"
-msgstr ""
+msgid "\nPrevious File (Ctrl+F7)"
+msgstr "\nПредыдущий файл (Ctrl+F7)"
 
 msgid "The adapted unpacker is applied to both files (one file only needs the extension)."
 msgstr "Автоматический подбор распаковщика (укажите расширение хотя бы у одного из файлов)."
@@ -3000,12 +3049,6 @@ msgstr "Настройки плагина"
 
 msgid "WSH not found - .sct scripts disabled"
 msgstr "WSH не найден - .sct скрипты отключены"
-
-msgid "<None>"
-msgstr "<Нет>"
-
-msgid "<Automatic>"
-msgstr "<Автоматически>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -3191,26 +3234,144 @@ msgid "Rc: (%d, %d)  "
 msgstr ""
 
 msgid "<Edit here>"
-msgstr ""
+msgstr "<Редактировать здесь>"
 
 msgid "No differences to select found"
-msgstr ""
+msgstr "Никаких отличий для выбора не найдено"
 
 msgid "No differences found to add as substitution filter"
-msgstr ""
+msgstr "Никаких отличий не найдено для добавления в фильтр замены"
 
 msgid "The pair is already present in the list of Substitution Filters"
-msgstr ""
+msgstr "Эта пара уже присутствует в списке фильтров замены"
 
 msgid "Add this change to Substitution Filters?"
-msgstr ""
+msgstr "Добавить это изменение в фильтры замены?"
 
 msgid "Text only"
-msgstr ""
+msgstr "Только текст"
 
 msgid "Line-by-line position and text"
-msgstr ""
+msgstr "Построчная позиция и текст"
 
 msgid "Word-by-word position and text"
+msgstr "Пословная позиция и текст"
+
+msgid "Allow only one instance to run"
+msgstr "Разрешить запуск только одной копии"
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr "Разрешить запуск только одной копии и дожидаться ее завершения"
+
+msgid "Al&l"
+msgstr "Все"
+
+msgid "Prettification"
+msgstr "Приукрашивание"
+
+msgid "Content Extraction"
+msgstr "Извлечение контента"
+
+msgid "Visualization"
+msgstr "Визуализация"
+
+msgid "Data Query"
+msgstr "Запрос данных"
+
+msgid "&Others"
+msgstr "Другое"
+
+msgid "Make Uppercase"
+msgstr "Сделать прописными"
+
+msgid "Make Lowercase"
+msgstr "Сделать строчными"
+
+msgid "Remove Duplicate Lines"
+msgstr "Удалить дубли строк"
+
+msgid "Count Duplicate Lines"
+msgstr "Подсчитать дубли строк"
+
+msgid "Sort Lines Ascending"
+msgstr "Сортировать строки по возрастанию"
+
+msgid "Sort Lines Descending"
+msgstr "Сортировать строки по убыванию"
+
+msgid "Reverse Columns"
 msgstr ""
 
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr "Применить фильтрацию..."
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr "Трим пробелов"
+
+msgid "Select Columns..."
+msgstr "Выбрать столбцы..."
+
+msgid "Select Lines..."
+msgstr "Выбрать строки..."
+
+msgid "Insert Date"
+msgstr "Вставить дату"
+
+msgid "Insert Time"
+msgstr "Вставить время"
+
+msgid "Apply Patch..."
+msgstr "Применить патч..."
+
+msgid "Ignore Columns"
+msgstr "Игнорировать столбцы"
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr "Игнорировать комментарии (семейство C)"
+
+msgid "Ignore CSV Fields"
+msgstr "Игнорировать поля CSV"
+
+msgid "Ignore TSV Fields"
+msgstr "Игнорировать поля TSV"
+
+msgid "Apply Prediff Substitution Filters"
+msgstr "Применить фильтры замены предсравнения."
+
+msgid "Prettify JSON"
+msgstr "Приукрасить JSON"
+
+msgid "Prettify XML"
+msgstr "Приукрасить XML"
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr "Запрос данных CSV..."
+
+msgid "Query TSV Data..."
+msgstr "Запрос данных TSV..."
+
+msgid "Query JSON Data..."
+msgstr "Запрос данных JSON..."
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr "Отсутствует плагин в конвейере: %1"
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr "Отсутствует кавычка в конвейере плагинов: %1"
+
+msgid "Specify plugin arguments"
+msgstr "Укажите аргументы плагина"

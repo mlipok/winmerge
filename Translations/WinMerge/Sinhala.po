@@ -41,8 +41,21 @@ msgstr ""
 msgid "Copy fro&m Right"
 msgstr ""
 
-msgid "&Select Line Difference\tF4"
-msgstr "පේලි අතර වෙනස තේරීම\tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr ""
+
+msgid "Copy Selected Line(s) to Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Right"
+msgstr ""
+
+#, fuzzy, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "Select Line &Difference\tF4"
 
 msgid "Add this change to Substitution &Filters"
 msgstr ""
@@ -67,6 +80,14 @@ msgstr "පිටපත් කිරීම"
 msgid "&Paste"
 msgstr "ඇලවීම"
 
+#, fuzzy, c-format
+msgid "&Scripts"
+msgstr "&Scripts"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< හිස් >"
+
 msgid "&Go to...\tCtrl+G"
 msgstr "යන්න\tCtrl+G"
 
@@ -88,6 +109,9 @@ msgstr ""
 
 msgid "&With..."
 msgstr "&සමග"
+
+msgid "Open &Parent Folder..."
+msgstr ""
 
 msgid "S&hell Menu"
 msgstr ""
@@ -243,10 +267,6 @@ msgstr "මෑතදී කළ ව්‍යාපෘති"
 msgid "Recent F&iles Or Folders"
 msgstr ""
 
-#, c-format
-msgid "< Empty >"
-msgstr "< හිස් >"
-
 msgid "E&xit\tCtrl+Q"
 msgstr " නික්මීම\tCtrl+Q"
 
@@ -398,8 +418,8 @@ msgid "Ri&ght Read-only"
 msgstr "Ri&ght Read-only"
 
 #, c-format
-msgid "File En&coding..."
-msgstr ""
+msgid "&File Encoding..."
+msgstr "ගොනුව කේතීකරණය..."
 
 #, c-format
 msgid "Select &All\tCtrl+A"
@@ -500,7 +520,7 @@ msgid "Com&pare Statistics..."
 msgstr "සංඛ්‍යාන විස්තර සසඳන්න..."
 
 #, c-format
-msgid "Refre&sh\tF5"
+msgid "Refresh\tF5"
 msgstr "නැවත පණ ගැන්වීම\tF5"
 
 #, c-format
@@ -617,16 +637,8 @@ msgid "Re&load\tCtrl+F5"
 msgstr ""
 
 #, c-format
-msgid "&File Encoding..."
-msgstr "ගොනුව කේතීකරණය..."
-
-#, c-format
 msgid "Reco&mpare As"
 msgstr ""
-
-#, c-format
-msgid "&XML"
-msgstr "&XML"
 
 #, c-format
 msgid "&Undo\tCtrl+Z"
@@ -647,10 +659,6 @@ msgstr "පිටපත් කිරීම\tCtrl+C"
 #, c-format
 msgid "&Paste\tCtrl+V"
 msgstr "ඇලවීම\tCtrl+V"
-
-#, fuzzy, c-format
-msgid "Select Line &Difference\tF4"
-msgstr "Select Line &Difference\tF4"
 
 #, c-format
 msgid "F&ind...\tCtrl+F"
@@ -867,13 +875,15 @@ msgstr ""
 msgid "Clear Sync&hronization Points"
 msgstr ""
 
+msgid "Unpac&ker"
+msgstr ""
+
 #, fuzzy, c-format
 msgid "&Prediffer"
 msgstr "&Prediffer"
 
-#, fuzzy, c-format
-msgid "&Scripts"
-msgstr "&Scripts"
+msgid "Apply Pre&differ..."
+msgstr ""
 
 #, c-format
 msgid "Sp&lit"
@@ -882,6 +892,9 @@ msgstr ""
 #, c-format
 msgid "Comp&are"
 msgstr "සසඳන්න"
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr ""
@@ -983,11 +996,8 @@ msgid "&Open Left"
 msgstr "වම් පස විවෘත කරන්න"
 
 #, c-format
-msgid "with &External Editor"
+msgid "With &External Editor"
 msgstr "බාහිර සම්බන්ධකය සමග"
-
-msgid "Open &Parent Folder..."
-msgstr ""
 
 #, c-format
 msgid "Open Midd&le"
@@ -1069,17 +1079,24 @@ msgstr "&Copy Full Path"
 msgid "Copy &Filename"
 msgstr "ගොනුවෙ නම  පිටපත් කිරීම"
 
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<None>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<Automatic>"
+
+#, c-format
+msgid "&Select..."
+msgstr "තෝරන්න..."
+
 #, fuzzy, c-format
 msgid "Prediffer Settings"
 msgstr "Prediffer Settings"
-
-#, fuzzy, c-format
-msgid "&No prediffer"
-msgstr "&No prediffer"
-
-#, fuzzy, c-format
-msgid "Auto prediffer"
-msgstr "Auto prediffer"
 
 msgid "G&o to Diff"
 msgstr "G&oto Diff"
@@ -1108,6 +1125,10 @@ msgstr "වෙනස්කම් නොසලකා හරින්න"
 msgid "Ig&nore all"
 msgstr "සියල්ල නොසලකා හරින්න"
 
+#, c-format
+msgid "Ignore blan&k lines"
+msgstr "හිස් පේළි නොසලකා හරින්න"
+
 #, fuzzy, c-format
 msgid "Ignore &case"
 msgstr "Ignore &case"
@@ -1118,6 +1139,9 @@ msgstr "Igno&re carriage return differences (Windows/Unix/Mac)"
 
 #, c-format
 msgid "Ignore codepage &differences"
+msgstr ""
+
+msgid "Ignore c&omment differences"
 msgstr ""
 
 #, c-format
@@ -1228,10 +1252,6 @@ msgid " Folder: Filter"
 msgstr ""
 
 #, c-format
-msgid "&Select..."
-msgstr "තෝරන්න..."
-
-#, c-format
 msgid " File: Unpacker Plugin"
 msgstr ""
 
@@ -1272,9 +1292,8 @@ msgstr "කවුළු වැසීම 'Esc':"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "&Automatically verify paths in Open-dialog"
 
-#, c-format
-msgid "All&ow only one instance to run"
-msgstr "එක් දෘෂ්ටාන්තයක් පමණක් සිදු වීමට ඉඩ හරින්න"
+msgid "Single instance mode:"
+msgstr ""
 
 #, c-format
 msgid "As&k when closing multiple windows"
@@ -1293,8 +1312,8 @@ msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr ""
 
 #, c-format
-msgid "O&pen-dialog Auto-Completion:"
-msgstr "O&pen-dialog Auto-Completion:"
+msgid "Op&en-dialog Auto-Completion:"
+msgstr "Op&en-dialog Auto-Completion:"
 
 #, c-format
 msgid "Language:"
@@ -1343,7 +1362,8 @@ msgstr "සෙවීම එ ළඟ"
 msgid "Find &Prev"
 msgstr ""
 
-msgid "&OK"
+#, c-format
+msgid "&Ok"
 msgstr "&හරි"
 
 #, c-format
@@ -1396,10 +1416,6 @@ msgstr "නව"
 #, c-format
 msgid "&Background color:"
 msgstr ""
-
-#, c-format
-msgid "&Ok"
-msgstr "&හරි"
 
 #, c-format
 msgid "&Apply"
@@ -1613,15 +1629,10 @@ msgstr "ඉහළට ගෙනියන්න"
 msgid "Move &Down"
 msgstr "පහළට ගෙනියන්න"
 
-#, fuzzy, c-format
-msgid "Select Unpacker"
-msgstr "Select Unpacker"
+msgid "Select Plugin"
+msgstr ""
 
-#, fuzzy, c-format
-msgid "File unpacker:"
-msgstr "File unpacker:"
-
-msgid "Display all unpackers, don't check the extension."
+msgid "Plugin &Name:"
 msgstr ""
 
 #, fuzzy, c-format
@@ -1631,6 +1642,21 @@ msgstr "Extensions list:"
 #, c-format
 msgid "Description:"
 msgstr " විස්තරය:"
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all unpackers, don't check the extension."
+msgstr ""
+
+msgid "&Open files in the same window type after unpacking."
+msgstr ""
+
+msgid "&Plugin Pipeline:"
+msgstr ""
+
+msgid "&Add pipe"
+msgstr ""
 
 #, c-format
 msgid "Stop"
@@ -1699,13 +1725,6 @@ msgstr "වෙනස නොසලකා හරින්න "
 #, c-format
 msgid "I&gnore all"
 msgstr "සියල්ල නොසලකා හරින්න"
-
-#, c-format
-msgid "Ignore blan&k lines"
-msgstr "හිස් පේළි නොසලකා හරින්න"
-
-msgid "Ignore c&omment differences"
-msgstr ""
 
 #, fuzzy, c-format
 msgid "E&nable moved block detection"
@@ -1857,10 +1876,10 @@ msgstr "Default Codepage"
 msgid "Select the default codepage assumed when loading non-Unicode files:"
 msgstr "Select the default codepage assumed when loading non-Unicode files:"
 
-msgid "Detect codepage info for these files: .html, .rc, .xml\nNeed to restart session."
+msgid "Detect codepage info for these type of files: .html, .rc, .xml\nNeed to restart session."
 msgstr "මෙම ගොනු සඳහා ගුප්ත සංඥා  විස්තර  අණාවරනය කරන්න: .html, .rc, .xml\n"
 
-msgid "Detect codepage for text files using mlang.dll\nNeed to restart session."
+msgid "Detect codepage for text files with mlang.dll\nNeed to restart session."
 msgstr ""
 
 #, c-format
@@ -2228,6 +2247,12 @@ msgstr "&උපකාරක බලය වැඩිකිරීම"
 msgid "File filters:"
 msgstr ""
 
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr ""
+
 #, c-format
 msgid "Shell Integration"
 msgstr "කවච සංකලනය කිරීම"
@@ -2271,7 +2296,7 @@ msgid "Ign&ore time differences less than 3 seconds"
 msgstr "තත්පර 3 ට අඩු කාලච්ඡේද නොසලකා හරින්න"
 
 #, c-format
-msgid "&Include unique subfolders contents"
+msgid "Include &unique subfolders contents"
 msgstr ""
 
 #, c-format
@@ -2439,11 +2464,6 @@ msgstr ""
 "WinMerge.ෆෝල්ඩරය සසඳන්න\n"
 "WinMerge ෆෝල්ඩරය සසඳන්න"
 
-msgid "Developers:\nDean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr ""
-"Developers:\n"
-"Dean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-
 #, c-format
 msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you are welcome to redistribute it under certain circumstances; see the GNU General Public License in the Help menu for details."
 msgstr "WinMerge නිසැකවම පොරොන්දු නැත. මෙය නිදහස් මෘදුකාංගයක් සහ කිසියම් පරිදියක් යටතේ ඔබව සාදරයෙන් පිලිගනිමු.දත්ත සඳහා උදවු ලේඛනය තුල ඇති GNU සාමාන්‍ය පොදු බලපත්‍රය බලන්න."
@@ -2499,11 +2519,11 @@ msgstr "මෙම පණිවිඩය නැවත දර්ශනය නො�
 msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
 msgstr ""
 
-msgid "Color Schemes"
-msgstr ""
-
 #, c-format
 msgid "Syntax"
+msgstr ""
+
+msgid "Color Schemes"
 msgstr ""
 
 msgid "Folder Compare"
@@ -2596,6 +2616,13 @@ msgstr "HTML ලිපිගොනු (*.htm,*.html)|*.htm;*.html|සියල�
 #, c-format
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
 msgstr "XML ලිපිගොනු (*.xml)|*.xml|සියලුම ලිපිගොනු (*.*)|*.*||"
+
+msgid "File Type"
+msgstr ""
+
+#, c-format
+msgid "Extension"
+msgstr "දිගුව"
 
 #, c-format
 msgid "Name"
@@ -2727,6 +2754,9 @@ msgstr "ඔවුන්ගේම ලිපිගොනු"
 msgid "Mine File"
 msgstr "ලිපිගොනු ආකරය"
 
+msgid "Original File"
+msgstr ""
+
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
 msgstr "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
@@ -2738,6 +2768,10 @@ msgstr "රේඛාව: %s"
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
 msgstr "Ln: %s  Col: %d/%d  Ch: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr ""
 
 #, c-format
 msgid "Merge"
@@ -3174,10 +3208,6 @@ msgid "Middle Date"
 msgstr ""
 
 #, c-format
-msgid "Extension"
-msgstr "දිගුව"
-
-#, c-format
 msgid "Left Size"
 msgstr "වම් ප්‍රමාණය"
 
@@ -3275,6 +3305,14 @@ msgstr "වෙනස්කම් නොසලකා හැරියා"
 msgctxt "DirView|ColumnHeader"
 msgid "Binary"
 msgstr "ද්වීමය "
+
+#, fuzzy, c-format
+msgid "Unpacker"
+msgstr "Unpacker"
+
+#, fuzzy, c-format
+msgid "Prediffer"
+msgstr "Prediffer"
 
 #, c-format
 msgid "Unable to compare files"
@@ -3519,6 +3557,12 @@ msgstr "Number of differences in file. This number does not include ignored diff
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr "Shows an asterisk (*) if the file is binary."
 
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr "Compare %1 with %2"
@@ -3613,6 +3657,12 @@ msgstr ""
 
 #, c-format
 msgid "Do you want to move to the previous page?"
+msgstr ""
+
+msgid "Do you want to move to the first file?"
+msgstr ""
+
+msgid "Do you want to move to the last file?"
 msgstr ""
 
 #, c-format
@@ -3810,14 +3860,6 @@ msgstr ""
 msgid "Type"
 msgstr "Type"
 
-#, fuzzy, c-format
-msgid "Unpacker"
-msgstr "Unpacker"
-
-#, fuzzy, c-format
-msgid "Prediffer"
-msgstr "Prediffer"
-
 #, c-format
 msgid "Editor script"
 msgstr "Editor script"
@@ -3893,13 +3935,13 @@ msgstr ""
 msgid "\nFirst File"
 msgstr ""
 
-msgid "\nNext File"
+msgid "\nNext File (Ctrl+F8)"
 msgstr ""
 
 msgid "\nLast File"
 msgstr ""
 
-msgid "\nPrevious File"
+msgid "\nPrevious File (Ctrl+F7)"
 msgstr ""
 
 msgid "The adapted unpacker is applied to both files (one file only needs the extension)."
@@ -3939,14 +3981,6 @@ msgstr "Plugin Settings"
 #, c-format
 msgid "WSH not found - .sct scripts disabled"
 msgstr "WSH not found - .sct scripts disabled"
-
-#, c-format
-msgid "<None>"
-msgstr "<None>"
-
-#, c-format
-msgid "<Automatic>"
-msgstr "<Automatic>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -4169,3 +4203,122 @@ msgstr ""
 msgid "Word-by-word position and text"
 msgstr ""
 
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "එක් දෘෂ්ටාන්තයක් පමණක් සිදු වීමට ඉඩ හරින්න"
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr ""
+
+msgid "Al&l"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""

@@ -220,13 +220,28 @@ void CDiffWrapper::SetDetectMovedBlocks(bool bDetectMovedBlocks)
 	}
 }
 
+static String convertToTString(const char* start, const char* end)
+{
+	if (!ucr::CheckForInvalidUtf8(start, end - start))
+	{
+		return ucr::toTString(std::string(start, end));
+	}
+	else
+	{
+		bool lossy = false;
+		String text;
+		ucr::maketstring(text, start, end - start, -1, &lossy);
+		return text;
+	}
+}
+
 static unsigned GetLastLineCookie(unsigned dwCookie, int startLine, int endLine, const char **linbuf, CrystalLineParser::TextDefinition* enuType)
 {
 	if (!enuType)
 		return dwCookie;
 	for (int i = startLine; i <= endLine; ++i)
 	{
-		String text = ucr::toTString(std::string{ linbuf[i], linbuf[i + 1] });
+		String text = convertToTString(linbuf[i], linbuf[i + 1]);
 		int nActualItems = 0;
 		std::vector<CrystalLineParser::TEXTBLOCK> blocks(text.length());
 		dwCookie = enuType->ParseLineX(dwCookie, text.c_str(), static_cast<int>(text.length()), blocks.data(), nActualItems);
@@ -239,7 +254,7 @@ static unsigned GetCommentsFilteredText(unsigned dwCookie, int startLine, int en
 	String filteredT;
 	for (int i = startLine; i <= endLine; ++i)
 	{
-		String text = ucr::toTString(std::string{ linbuf[i], linbuf[i + 1] });
+		String text = convertToTString(linbuf[i], linbuf[i + 1]);
 		unsigned textlen = static_cast<unsigned>(text.size());
 		if (!enuType)
 		{
@@ -415,22 +430,17 @@ bool CDiffWrapper::RunFileDiff()
 
 			// this can only fail if the data can not be saved back (no more
 			// place on disk ???) What to do then ??
-			if (!FileTransform::Prediffing(m_infoPrediffer.get(), strFileTemp[file], m_sToFindPrediffer, m_bPathsAreTemp))
+			if (m_infoPrediffer && !m_infoPrediffer->Prediffing(strFileTemp[file], m_sToFindPrediffer, m_bPathsAreTemp, { strFileTemp[file] }))
 			{
 				// display a message box
 				String sError = strutils::format(
 					_T("An error occurred while prediffing the file '%s' with the plugin '%s'. The prediffing is not applied any more."),
 					strFileTemp[file].c_str(),
-					m_infoPrediffer->m_PluginName.c_str());
+					m_infoPrediffer->GetPluginPipeline().c_str());
 				AppErrorMessageBox(sError);
 				// don't use any more this prediffer
-				m_infoPrediffer->m_PluginOrPredifferMode = PLUGIN_MODE::PLUGIN_MANUAL;
-				m_infoPrediffer->m_PluginName.erase();
+				m_infoPrediffer->ClearPluginPipeline();
 			}
-
-			// We use the same plugin for both files, so it must be defined before
-			// second file
-			assert(m_infoPrediffer->m_PluginOrPredifferMode == PLUGIN_MODE::PLUGIN_MANUAL);
 		}
 	}
 
@@ -962,7 +972,8 @@ CDiffWrapper::LoadWinMergeDiffsFromDiffUtilsScript(struct change * script, const
 						op = OP_TRIVIAL;
 				}
 
-				if (op == OP_TRIVIAL && m_options.m_bCompletelyBlankOutIgnoredDiffereneces)
+				if (op == OP_TRIVIAL && m_options.m_bCompletelyBlankOutIgnoredDiffereneces &&
+					QtyLinesLeft == QtyLinesRight)
 					op = OP_NONE;
 				if (op != OP_NONE)
 					AddDiffRange(m_pDiffList, trans_a0-1, trans_b0-1, trans_a1-1, trans_b1-1, op);

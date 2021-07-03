@@ -45,8 +45,21 @@ msgstr ""
 msgid "Copy fro&m Right"
 msgstr ""
 
-msgid "&Select Line Difference\tF4"
-msgstr "&S انتخاب خط تفاوت \tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr ""
+
+msgid "Copy Selected Line(s) to Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Left"
+msgstr ""
+
+msgid "Copy Selected Line(s) from Right"
+msgstr ""
+
+#, c-format
+msgid "Select Line &Difference\tF4"
+msgstr "&D انتخاب خط تفاوت \tF4"
 
 msgid "Add this change to Substitution &Filters"
 msgstr ""
@@ -71,6 +84,14 @@ msgstr "&C رونوشت برداري "
 msgid "&Paste"
 msgstr "&P چسباندن "
 
+#, c-format
+msgid "&Scripts"
+msgstr "&S دست نويسها "
+
+#, c-format
+msgid "< Empty >"
+msgstr "<خالي>"
+
 msgid "&Go to...\tCtrl+G"
 msgstr "&G برو به ... \tCtrl+G"
 
@@ -92,6 +113,9 @@ msgstr ""
 
 msgid "&With..."
 msgstr "&w با ..."
+
+msgid "Open &Parent Folder..."
+msgstr ""
 
 msgid "S&hell Menu"
 msgstr ""
@@ -247,10 +271,6 @@ msgstr " پروژه هاي) طرحهاي اخير) "
 msgid "Recent F&iles Or Folders"
 msgstr ""
 
-#, c-format
-msgid "< Empty >"
-msgstr "<خالي>"
-
 msgid "E&xit\tCtrl+Q"
 msgstr "&x خروج \tCtrl+Q"
 
@@ -402,8 +422,8 @@ msgid "Ri&ght Read-only"
 msgstr "&g طرف راست فقط خواندني "
 
 #, c-format
-msgid "File En&coding..."
-msgstr ""
+msgid "&File Encoding..."
+msgstr "&F کدبندي پرونده ... "
 
 #, c-format
 msgid "Select &All\tCtrl+A"
@@ -504,7 +524,7 @@ msgid "Com&pare Statistics..."
 msgstr "&r مقايسه آمارها ... "
 
 #, c-format
-msgid "Refre&sh\tF5"
+msgid "Refresh\tF5"
 msgstr "&s بازسازي \tF5"
 
 #, c-format
@@ -621,16 +641,8 @@ msgid "Re&load\tCtrl+F5"
 msgstr ""
 
 #, c-format
-msgid "&File Encoding..."
-msgstr "&F کدبندي پرونده ... "
-
-#, c-format
 msgid "Reco&mpare As"
 msgstr ""
-
-#, c-format
-msgid "&XML"
-msgstr "&XML"
 
 #, c-format
 msgid "&Undo\tCtrl+Z"
@@ -651,10 +663,6 @@ msgstr "&C رونوشت برداري \tCtrl+C"
 #, c-format
 msgid "&Paste\tCtrl+V"
 msgstr "&P چسباندن \tCtrl+V"
-
-#, c-format
-msgid "Select Line &Difference\tF4"
-msgstr "&D انتخاب خط تفاوت \tF4"
 
 #, c-format
 msgid "F&ind...\tCtrl+F"
@@ -871,13 +879,15 @@ msgstr ""
 msgid "Clear Sync&hronization Points"
 msgstr ""
 
+msgid "Unpac&ker"
+msgstr ""
+
 #, c-format
 msgid "&Prediffer"
 msgstr "&P پيش فرق گذار "
 
-#, c-format
-msgid "&Scripts"
-msgstr "&S دست نويسها "
+msgid "Apply Pre&differ..."
+msgstr ""
 
 #, c-format
 msgid "Sp&lit"
@@ -886,6 +896,9 @@ msgstr ""
 #, c-format
 msgid "Comp&are"
 msgstr "&a همسنجي "
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr ""
@@ -987,11 +1000,8 @@ msgid "&Open Left"
 msgstr "&O بازکردن سمت چپي "
 
 #, c-format
-msgid "with &External Editor"
+msgid "With &External Editor"
 msgstr "&E با ويرايشگر بيروني "
-
-msgid "Open &Parent Folder..."
-msgstr ""
 
 #, c-format
 msgid "Open Midd&le"
@@ -1073,17 +1083,24 @@ msgstr "&C رونوشت برداري کل مسير "
 msgid "Copy &Filename"
 msgstr "&F رونوشت برداري نام پرونده"
 
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<هيچکدام>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<خودکار>"
+
+#, c-format
+msgid "&Select..."
+msgstr "&S انتخاب ... "
+
 #, c-format
 msgid "Prediffer Settings"
 msgstr " تنظيمهاي پيش فرق گذار  "
-
-#, c-format
-msgid "&No prediffer"
-msgstr "&N بدون پيش فرق گذار "
-
-#, c-format
-msgid "Auto prediffer"
-msgstr " پيش فرق گذار خودکار "
 
 msgid "G&o to Diff"
 msgstr "&o برو به محل تفاوت "
@@ -1113,6 +1130,10 @@ msgid "Ig&nore all"
 msgstr "&n چشم پوشي از همه "
 
 #, c-format
+msgid "Ignore blan&k lines"
+msgstr "&k چشم پوشي از خطوط خالي "
+
+#, c-format
 msgid "Ignore &case"
 msgstr "&c چشم پوشي از اندازه حروف "
 
@@ -1122,6 +1143,9 @@ msgstr "&r چشم پوشي از تفاوت علامت بازگشت به سر س�
 
 #, c-format
 msgid "Ignore codepage &differences"
+msgstr ""
+
+msgid "Ignore c&omment differences"
 msgstr ""
 
 #, c-format
@@ -1232,10 +1256,6 @@ msgid " Folder: Filter"
 msgstr ""
 
 #, c-format
-msgid "&Select..."
-msgstr "&S انتخاب ... "
-
-#, c-format
 msgid " File: Unpacker Plugin"
 msgstr ""
 
@@ -1276,9 +1296,8 @@ msgstr "&o   'Esc' بستن پنجره ها با کليد :"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "&A بطور خودکار مسيرها در پنجره محاوره - باز کردن - وارسي شود "
 
-#, c-format
-msgid "All&ow only one instance to run"
-msgstr "&o اجازه اجراي همزمان تنها يک نسخه از نرم افزار  "
+msgid "Single instance mode:"
+msgstr ""
 
 #, c-format
 msgid "As&k when closing multiple windows"
@@ -1299,7 +1318,7 @@ msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr ""
 
 #, c-format
-msgid "O&pen-dialog Auto-Completion:"
+msgid "Op&en-dialog Auto-Completion:"
 msgstr "&p بازکردن پنجره محاوره اتمام خودکار "
 
 #, c-format
@@ -1351,7 +1370,8 @@ msgstr "&F يافتن بعدي "
 msgid "Find &Prev"
 msgstr ""
 
-msgid "&OK"
+#, c-format
+msgid "&Ok"
 msgstr "&O تاييد "
 
 #, c-format
@@ -1404,10 +1424,6 @@ msgstr " جديد "
 #, c-format
 msgid "&Background color:"
 msgstr ""
-
-#, c-format
-msgid "&Ok"
-msgstr "&O تاييد "
 
 #, c-format
 msgid "&Apply"
@@ -1621,16 +1637,11 @@ msgstr "&U جابجايي به بالا "
 msgid "Move &Down"
 msgstr " جابجايي به پايين "
 
-#, c-format
-msgid "Select Unpacker"
-msgstr " انتخاب بازکننده بسته "
+msgid "Select Plugin"
+msgstr ""
 
-#, c-format
-msgid "File unpacker:"
-msgstr " باز کننده بسته پرونده : "
-
-msgid "Display all unpackers, don't check the extension."
-msgstr " تمام بازکننده هاي بسته را نمايش بده، توسعه را بررسي نکن "
+msgid "Plugin &Name:"
+msgstr ""
 
 #, c-format
 msgid "Extensions list:"
@@ -1639,6 +1650,21 @@ msgstr " فهرست توسعه ها : "
 #, c-format
 msgid "Description:"
 msgstr " توصيف : "
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all unpackers, don't check the extension."
+msgstr " تمام بازکننده هاي بسته را نمايش بده، توسعه را بررسي نکن "
+
+msgid "&Open files in the same window type after unpacking."
+msgstr ""
+
+msgid "&Plugin Pipeline:"
+msgstr ""
+
+msgid "&Add pipe"
+msgstr ""
 
 #, c-format
 msgid "Stop"
@@ -1707,13 +1733,6 @@ msgstr "&I چشم پوشي از تغيير "
 #, c-format
 msgid "I&gnore all"
 msgstr "&g چشم پوشي از همگي "
-
-#, c-format
-msgid "Ignore blan&k lines"
-msgstr "&k چشم پوشي از خطوط خالي "
-
-msgid "Ignore c&omment differences"
-msgstr ""
 
 #, c-format
 msgid "E&nable moved block detection"
@@ -1867,12 +1886,12 @@ msgstr ""
 " موقعي که پرونده هاي غير يوني کد بارگيري مي شوند، انتخاب صفحه کد پيش فرض در "
 "نظر گرفته مي شود : "
 
-msgid "Detect codepage info for these files: .html, .rc, .xml\nNeed to restart session."
+msgid "Detect codepage info for these type of files: .html, .rc, .xml\nNeed to restart session."
 msgstr ""
 " تشخيص اطلاعات صفحه کد براي اين پرونده ها : .html, .rc, .xml\n"
 " نيازمند جلسه شروع دوباره /  بازآغازي "
 
-msgid "Detect codepage for text files using mlang.dll\nNeed to restart session."
+msgid "Detect codepage for text files with mlang.dll\nNeed to restart session."
 msgstr ""
 
 #, c-format
@@ -2240,6 +2259,12 @@ msgstr "&E فعال سازي افزايه ها "
 msgid "File filters:"
 msgstr ""
 
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr ""
+
 #, c-format
 msgid "Shell Integration"
 msgstr " يکپارچه سازي پوسته "
@@ -2283,7 +2308,7 @@ msgid "Ign&ore time differences less than 3 seconds"
 msgstr "&o  چشم پوشي از تفاوت زماني کمتر از 3 ثانيه "
 
 #, c-format
-msgid "&Include unique subfolders contents"
+msgid "Include &unique subfolders contents"
 msgstr ""
 
 #, c-format
@@ -2451,11 +2476,6 @@ msgstr ""
 " وينمرج.مقايسه پوشه\n"
 " مقايسه پوشه وينمرج"
 
-msgid "Developers:\nDean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr " توسعه دهنده گان : \n"
-"Dean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi "
-"Sawanaka, Gal Hammer, Alexander Skinner"
-
 #, c-format
 msgid ""
 "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you "
@@ -2517,12 +2537,12 @@ msgstr "&m دوباره اين پيام را نمايش نده "
 msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
 msgstr ""
 
-msgid "Color Schemes"
-msgstr ""
-
 #, c-format
 msgid "Syntax"
 msgstr "نحو"
+
+msgid "Color Schemes"
+msgstr ""
 
 msgid "Folder Compare"
 msgstr ""
@@ -2619,6 +2639,13 @@ msgstr ""
 #, c-format
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
 msgstr "XML  پرونده هاي  (*.xml)|*.xml|همه پرونده ها  (*.*)|*.*||"
+
+msgid "File Type"
+msgstr ""
+
+#, c-format
+msgid "Extension"
+msgstr " توسعه "
 
 #, c-format
 msgid "Name"
@@ -2754,6 +2781,9 @@ msgstr " پرونده ديگران "
 msgid "Mine File"
 msgstr " پرونده خودم "
 
+msgid "Original File"
+msgstr ""
+
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
 msgstr "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
@@ -2765,6 +2795,10 @@ msgstr " خط : %s"
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
 msgstr "Ln: %s  Col: %d/%d  Ch: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr ""
 
 #, c-format
 msgid "Merge"
@@ -3205,10 +3239,6 @@ msgid "Middle Date"
 msgstr ""
 
 #, c-format
-msgid "Extension"
-msgstr " توسعه "
-
-#, c-format
 msgid "Left Size"
 msgstr " اندازه چپ "
 
@@ -3306,6 +3336,14 @@ msgstr " تفاوت چشم پوشي شده "
 msgctxt "DirView|ColumnHeader"
 msgid "Binary"
 msgstr " دودويي "
+
+#, c-format
+msgid "Unpacker"
+msgstr " باز کننده بسته "
+
+#, c-format
+msgid "Prediffer"
+msgstr " پيش فرق گذار "
 
 #, c-format
 msgid "Unable to compare files"
@@ -3557,6 +3595,12 @@ msgstr ""
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr " نمايش يک ستاره * در صورتيکه پرونده دودويي باشد "
 
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr " همسنجي  %1 با  %2"
@@ -3663,6 +3707,12 @@ msgstr ""
 
 #, c-format
 msgid "Do you want to move to the previous page?"
+msgstr ""
+
+msgid "Do you want to move to the first file?"
+msgstr ""
+
+msgid "Do you want to move to the last file?"
 msgstr ""
 
 #, c-format
@@ -3864,14 +3914,6 @@ msgid "Type"
 msgstr " نوع "
 
 #, c-format
-msgid "Unpacker"
-msgstr " باز کننده بسته "
-
-#, c-format
-msgid "Prediffer"
-msgstr " پيش فرق گذار "
-
-#, c-format
 msgid "Editor script"
 msgstr "دست نوشته براي ويراستار   "
 
@@ -3946,13 +3988,13 @@ msgstr ""
 msgid "\nFirst File"
 msgstr ""
 
-msgid "\nNext File"
+msgid "\nNext File (Ctrl+F8)"
 msgstr ""
 
 msgid "\nLast File"
 msgstr ""
 
-msgid "\nPrevious File"
+msgid "\nPrevious File (Ctrl+F7)"
 msgstr ""
 
 msgid "The adapted unpacker is applied to both files (one file only needs the extension)."
@@ -3992,14 +4034,6 @@ msgstr " قرارگاههاي افزايه ها"
 #, c-format
 msgid "WSH not found - .sct scripts disabled"
 msgstr " .sct پيدا نشد -  دست نوشته ها غير فعال شد WSH  "
-
-#, c-format
-msgid "<None>"
-msgstr "<هيچکدام>"
-
-#, c-format
-msgid "<Automatic>"
-msgstr "<خودکار>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -4222,3 +4256,122 @@ msgstr ""
 msgid "Word-by-word position and text"
 msgstr ""
 
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "اجازه اجراي همزمان تنها يک نسخه از نرم افزار  "
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr ""
+
+msgid "Al&l"
+msgstr ""
+
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""

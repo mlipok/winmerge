@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: WinMerge\n"
 "Report-Msgid-Bugs-To: https://bugs.winmerge.org/\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2021-01-18 21:21+0200\n"
+"PO-Revision-Date: 2021-04-24 21:30+0200\n"
 "Last-Translator: Mr. Update\n"
 "Language-Team: German <winmerge-translate@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -30,25 +30,38 @@ msgstr "LANG_GERMAN, SUBLANG_GERMAN"
 
 #, c-format
 msgid "C&opy to Right"
-msgstr "&Nach rechts kopieren"
+msgstr "&Nach rechts kopieren\tAlt+Rechts"
 
 #, c-format
 msgid "Cop&y to Left"
-msgstr "N&ach links kopieren"
+msgstr "N&ach links kopieren\tAlt+Links"
 
 #, c-format
 msgid "Copy &from Left"
-msgstr "&Von links kopieren"
+msgstr "&Von links kopieren\tAlt+Umschalt+Rechts"
 
 #, c-format
 msgid "Copy fro&m Right"
-msgstr "V&on rechts kopieren"
+msgstr "V&on rechts kopieren\tAlt+Umschalt+Links"
 
-msgid "&Select Line Difference\tF4"
+msgid "Copy Selected Line(s) to Right"
+msgstr "Ausgewählte Zeile(n) nach rechts kopieren"
+
+msgid "Copy Selected Line(s) to Left"
+msgstr "Ausgewählte Zeile(n) nach links kopieren"
+
+msgid "Copy Selected Line(s) from Left"
+msgstr "Ausgewählte Zeile(n) von links kopieren"
+
+msgid "Copy Selected Line(s) from Right"
+msgstr "Ausgewählte Zeile(n) von rechts kopieren"
+
+#, c-format
+msgid "Select Line &Difference\tF4"
 msgstr "Zeilen&unterschied markieren\tF4"
 
 msgid "Add this change to Substitution &Filters"
-msgstr ""
+msgstr "Diese Änderung zu den Ersetzungsfiltern hinzuf&ügen"
 
 #, c-format
 msgid "&Undo"
@@ -69,6 +82,14 @@ msgstr "&Kopieren"
 #, c-format
 msgid "&Paste"
 msgstr "&Einfügen"
+
+#, c-format
+msgid "&Scripts"
+msgstr "&Skripte"
+
+#, c-format
+msgid "< Empty >"
+msgstr "< Leer >"
 
 msgid "&Go to...\tCtrl+G"
 msgstr "&Gehe zu...\tStrg+G"
@@ -91,6 +112,9 @@ msgstr "Mit &externem Editor\tStrg+Alt+E"
 
 msgid "&With..."
 msgstr "&Mit..."
+
+msgid "Open &Parent Folder..."
+msgstr "&Elternordner öffnen..."
 
 msgid "S&hell Menu"
 msgstr "S&hell-Menü"
@@ -246,10 +270,6 @@ msgstr "Kürzliche Projekte"
 msgid "Recent F&iles Or Folders"
 msgstr "Kürzlich&e Dateien oder Ordner"
 
-#, c-format
-msgid "< Empty >"
-msgstr "< Leer >"
-
 msgid "E&xit\tCtrl+Q"
 msgstr "&Beenden\tStrg+Q"
 
@@ -401,7 +421,7 @@ msgid "Ri&ght Read-only"
 msgstr "&Rechts schreibgeschützt"
 
 #, c-format
-msgid "File En&coding..."
+msgid "&File Encoding..."
 msgstr "Dateic&odierung..."
 
 #, c-format
@@ -503,8 +523,8 @@ msgid "Com&pare Statistics..."
 msgstr "V&ergleichsstatistik..."
 
 #, c-format
-msgid "Refre&sh\tF5"
-msgstr "A&ktualisieren\tF5"
+msgid "Refresh\tF5"
+msgstr "Aktualisieren\tF5"
 
 #, c-format
 msgid "&Refresh Selected\tCtrl+F5"
@@ -620,16 +640,8 @@ msgid "Re&load\tCtrl+F5"
 msgstr "Neu &laden\tStrg+F5"
 
 #, c-format
-msgid "&File Encoding..."
-msgstr "Dateic&odierung..."
-
-#, c-format
 msgid "Reco&mpare As"
 msgstr "Erneut ver&gleichen als"
-
-#, c-format
-msgid "&XML"
-msgstr "&XML"
 
 #, c-format
 msgid "&Undo\tCtrl+Z"
@@ -650,10 +662,6 @@ msgstr "&Kopieren\tStrg+C"
 #, c-format
 msgid "&Paste\tCtrl+V"
 msgstr "&Einfügen\tStrg+V"
-
-#, c-format
-msgid "Select Line &Difference\tF4"
-msgstr "Zeilen&unterschied markieren\tF4"
 
 #, c-format
 msgid "F&ind...\tCtrl+F"
@@ -870,13 +878,15 @@ msgstr "&Synchronisationspunkt hinzufügen\tAlt+S"
 msgid "Clear Sync&hronization Points"
 msgstr "S&ynchronisationspunkt entfernen"
 
+msgid "Unpac&ker"
+msgstr ""
+
 #, c-format
 msgid "&Prediffer"
 msgstr "&Prediffer"
 
-#, c-format
-msgid "&Scripts"
-msgstr "&Skripte"
+msgid "Apply Pre&differ..."
+msgstr ""
 
 #, c-format
 msgid "Sp&lit"
@@ -885,6 +895,9 @@ msgstr "&Teilen"
 #, c-format
 msgid "Comp&are"
 msgstr "Ver&gleichen"
+
+msgid "Compare in new &window"
+msgstr ""
 
 msgid "Compare Non-hor&izontally..."
 msgstr "Nicht-hor&izontal vergleichen..."
@@ -986,11 +999,8 @@ msgid "&Open Left"
 msgstr "Links ö&ffnen"
 
 #, c-format
-msgid "with &External Editor"
+msgid "With &External Editor"
 msgstr "Mit &externem Editor\tStrg+Alt+E"
-
-msgid "Open &Parent Folder..."
-msgstr "&Elternordner öffnen..."
 
 #, c-format
 msgid "Open Midd&le"
@@ -1072,17 +1082,24 @@ msgstr "&Vollständigen Pfad kopieren"
 msgid "Copy &Filename"
 msgstr "&Dateinamen kopieren"
 
+msgid "Unpacker Settings"
+msgstr ""
+
+#, c-format
+msgid "<None>"
+msgstr "<Keine>"
+
+#, c-format
+msgid "<Automatic>"
+msgstr "<Automatisch>"
+
+#, c-format
+msgid "&Select..."
+msgstr "Auswählen..."
+
 #, c-format
 msgid "Prediffer Settings"
 msgstr "&Prediffer-Einstellungen"
-
-#, c-format
-msgid "&No prediffer"
-msgstr "&Kein Prediffer"
-
-#, c-format
-msgid "Auto prediffer"
-msgstr "&Auto-Prediffer"
 
 msgid "G&o to Diff"
 msgstr "Zum Unterschied g&ehen"
@@ -1112,6 +1129,10 @@ msgid "Ig&nore all"
 msgstr "&Alle ignorieren"
 
 #, c-format
+msgid "Ignore blan&k lines"
+msgstr "&Leerzeilen ignorieren"
+
+#, c-format
 msgid "Ignore &case"
 msgstr "&Groß-/Kleinschreibung ignorieren"
 
@@ -1122,6 +1143,9 @@ msgstr "&Zeilenumbruchunterschiede (Windows/Unix/Mac) ignorieren"
 #, c-format
 msgid "Ignore codepage &differences"
 msgstr "&Codeseiten-Unterschiede ignorieren"
+
+msgid "Ignore c&omment differences"
+msgstr "Kommentarunterschiede ignorieren"
 
 #, c-format
 msgid "&Include Subfolders"
@@ -1231,10 +1255,6 @@ msgid " Folder: Filter"
 msgstr " Ordner: Filter"
 
 #, c-format
-msgid "&Select..."
-msgstr "Auswählen..."
-
-#, c-format
 msgid " File: Unpacker Plugin"
 msgstr " Datei: Entpacker-Plugin"
 
@@ -1275,9 +1295,8 @@ msgstr "Fenster mit '&Esc' schließen:"
 msgid "&Automatically verify paths in Open-dialog"
 msgstr "&Pfade im Öffnen-Dialog automatisch überprüfen"
 
-#, c-format
-msgid "All&ow only one instance to run"
-msgstr "Nur eine Programm-&Instanz zulassen"
+msgid "Single instance mode:"
+msgstr "Einzelinstanzmodus:"
 
 #, c-format
 msgid "As&k when closing multiple windows"
@@ -1296,7 +1315,7 @@ msgid "Close \"Select Files or Folders\" Dialog on clicking OK button"
 msgstr "Öffnen-Dialog beim Klick auf 'OK' schließen"
 
 #, c-format
-msgid "O&pen-dialog Auto-Completion:"
+msgid "Op&en-dialog Auto-Completion:"
 msgstr "Öffnen-Dialog Auto&vervollständigung:"
 
 #, c-format
@@ -1346,7 +1365,8 @@ msgstr "&Weitersuchen"
 msgid "Find &Prev"
 msgstr "R&ückwärtssuchen"
 
-msgid "&OK"
+#, c-format
+msgid "&Ok"
 msgstr "&OK"
 
 #, c-format
@@ -1401,10 +1421,6 @@ msgid "&Background color:"
 msgstr "&Hintergrundfarbe:"
 
 #, c-format
-msgid "&Ok"
-msgstr "&OK"
-
-#, c-format
 msgid "&Apply"
 msgstr "An&wenden"
 
@@ -1428,7 +1444,7 @@ msgid "Remove"
 msgstr "Entfernen"
 
 msgid "Substitution Filters"
-msgstr ""
+msgstr "Ersetzungsfilter"
 
 msgid "The changes that appear on the panels as the listed pairs below will be ignored or marked as insignificant. Patches are unaffected."
 msgstr "Änderungen, die in den Bereichen als die unten aufgeführten Paare erscheinen, werden ignoriert oder als unbedeutend markiert.\nPatches sind nicht betroffen."
@@ -1616,16 +1632,11 @@ msgstr "Nach &oben"
 msgid "Move &Down"
 msgstr "Nach &unten"
 
-#, c-format
-msgid "Select Unpacker"
-msgstr "Entpacker auswählen"
+msgid "Select Plugin"
+msgstr ""
 
-#, c-format
-msgid "File unpacker:"
-msgstr "Datei-Entpacker:"
-
-msgid "Display all unpackers, don't check the extension."
-msgstr "Alle Entpacker anzeigen, die Erweiterung nicht überprüfen."
+msgid "Plugin &Name:"
+msgstr ""
 
 #, c-format
 msgid "Extensions list:"
@@ -1634,6 +1645,21 @@ msgstr "Erweiterungsliste:"
 #, c-format
 msgid "Description:"
 msgstr "Beschreibung:"
+
+msgid "Default arguments:"
+msgstr ""
+
+msgid "Display all unpackers, don't check the extension."
+msgstr "Alle Entpacker anzeigen, die Erweiterung nicht überprüfen."
+
+msgid "&Open files in the same window type after unpacking."
+msgstr ""
+
+msgid "&Plugin Pipeline:"
+msgstr ""
+
+msgid "&Add pipe"
+msgstr ""
 
 #, c-format
 msgid "Stop"
@@ -1704,13 +1730,6 @@ msgid "I&gnore all"
 msgstr "&Alle ignorieren"
 
 #, c-format
-msgid "Ignore blan&k lines"
-msgstr "&Leerzeilen ignorieren"
-
-msgid "Ignore c&omment differences"
-msgstr "Kommentarunterschiede ignorieren"
-
-#, c-format
 msgid "E&nable moved block detection"
 msgstr "Verschobene &Blöcke erkennen"
 
@@ -1725,7 +1744,7 @@ msgid "Enable indent &heuristic"
 msgstr "&Heuristischen Einzug aktivieren"
 
 msgid "Completely unhighlight the ignored differences"
-msgstr ""
+msgstr "Ignorierte Unterschiede komplett nicht markieren"
 
 #, c-format
 msgid "Editor"
@@ -1860,10 +1879,10 @@ msgstr "Standard-Codeseite"
 msgid "Select the default codepage assumed when loading non-Unicode files:"
 msgstr "Wählen Sie die Standard-Codeseite aus, die beim Laden von Nicht-Unicode-Dateien verwendet wird:"
 
-msgid "Detect codepage info for these files: .html, .rc, .xml\nNeed to restart session."
+msgid "Detect codepage info for these type of files: .html, .rc, .xml\nNeed to restart session."
 msgstr "Codeseite für folgende Dateien ermitteln: .html, .rc, .xml\nBenötigt einen Neustart des Programmes."
 
-msgid "Detect codepage for text files using mlang.dll\nNeed to restart session."
+msgid "Detect codepage for text files with mlang.dll\nNeed to restart session."
 msgstr "Codeseite für Textdateien mit Hilfe von mlang.dll ermitteln\nBenötigt einen Neustart des Programmes."
 
 #, c-format
@@ -2231,6 +2250,12 @@ msgstr "&Plugins aktivieren"
 msgid "File filters:"
 msgstr "Dateifilter:"
 
+msgid "&Plugin arguments:"
+msgstr ""
+
+msgid "Enable &automatic unpacking/prediffing for the plugin"
+msgstr ""
+
 #, c-format
 msgid "Shell Integration"
 msgstr "Shell-Integration"
@@ -2274,7 +2299,7 @@ msgid "Ign&ore time differences less than 3 seconds"
 msgstr "&Zeitunterschiede kleiner als 3 Sekunden ignorieren"
 
 #, c-format
-msgid "&Include unique subfolders contents"
+msgid "Include &unique subfolders contents"
 msgstr "&Eindeutige Unterordner-Inhalte einbeziehen"
 
 #, c-format
@@ -2414,9 +2439,6 @@ msgstr "\nDateivergleich\n\n\n\nWinMerge.Dateivergleich\nWinMerge Dateivergleich
 msgid "\nFolderCompare\n\n\n\nWinMerge.FolderCompare\nWinMerge Folder Compare"
 msgstr "\nOrdnervergleich\n\n\n\nWinMerge.Ordnervergleich\nWinMerge Ordnervergleich"
 
-msgid "Developers:\nDean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-msgstr "Entwickler:\nDean Grimm, Christian List, Kimmo Varis, Jochen Tucht, Tim Gerundt, Takashi Sawanaka, Gal Hammer, Alexander Skinner"
-
 #, c-format
 msgid "WinMerge comes with ABSOLUTELY NO WARRANTY. This is free software and you are welcome to redistribute it under certain circumstances; see the GNU General Public License in the Help menu for details."
 msgstr "WinMerge kommt mit ABSOLUT KEINER GARANTIE. Es ist freie Software und Sie können sie unter bestimmten Bedingungen weiter vertreiben. Für Details sehen Sie sich die GNU General Public License unter dem Hilfe-Menü an."
@@ -2472,12 +2494,12 @@ msgstr "Diese &Meldung nicht erneut anzeigen."
 msgid "To make this message box visible again, press the Reset button on the General page of the Options dialog."
 msgstr "Um diese Meldung wieder sichtbar zu machen, drücken Sie 'Zurücksetzen' in Einstellungen/Allgemein."
 
-msgid "Color Schemes"
-msgstr "Farbschemas"
-
 #, c-format
 msgid "Syntax"
 msgstr "Syntax"
+
+msgid "Color Schemes"
+msgstr "Farbschemas"
 
 msgid "Folder Compare"
 msgstr "Ordnervergleich"
@@ -2563,6 +2585,13 @@ msgstr "HTML-Dateien (*.htm,*.html)|*.htm;*.html|Alle Dateien (*.*)|*.*||"
 #, c-format
 msgid "XML Files (*.xml)|*.xml|All Files (*.*)|*.*||"
 msgstr "XML-Dateien (*.xml)|*.xml|Alle Dateien (*.*)|*.*||"
+
+msgid "File Type"
+msgstr "Dateityp"
+
+#, c-format
+msgid "Extension"
+msgstr "Erweiterung"
 
 #, c-format
 msgid "Name"
@@ -2658,6 +2687,9 @@ msgstr "Deren Datei"
 msgid "Mine File"
 msgstr "Meine Datei"
 
+msgid "Original File"
+msgstr "Originaldatei"
+
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d  EOL: %s"
 msgstr "Zeile: %s  Spalte: %d/%d  Zeichen: %d/%d  EOL: %s"
@@ -2669,6 +2701,10 @@ msgstr "Zeile: %s"
 #, c-format
 msgid "Ln: %s  Col: %d/%d  Ch: %d/%d"
 msgstr "Zeile: %s  Spalte: %d/%d  Zeichen: %d/%d"
+
+#, c-format
+msgid "  Sel: %d | %d"
+msgstr "  Auswahl: %d | %d"
 
 #, c-format
 msgid "Merge"
@@ -2924,7 +2960,7 @@ msgstr "Linke Seite - Zielordner auswählen:"
 
 #, c-format
 msgid "Middle side - select destination folder:"
-msgstr "Mittlere Seite - Zielordner auswählen:"
+msgstr "Mitte - Zielordner auswählen:"
 
 #, c-format
 msgid "Right side - select destination folder:"
@@ -2999,10 +3035,6 @@ msgstr "Rechtes Datum"
 #, c-format
 msgid "Middle Date"
 msgstr "Mittleres Datum"
-
-#, c-format
-msgid "Extension"
-msgstr "Erweiterung"
 
 #, c-format
 msgid "Left Size"
@@ -3104,6 +3136,14 @@ msgid "Binary"
 msgstr "Binär"
 
 #, c-format
+msgid "Unpacker"
+msgstr "Entpacker"
+
+#, c-format
+msgid "Prediffer"
+msgstr "Prediffer"
+
+#, c-format
 msgid "Unable to compare files"
 msgstr "Dateien können nicht verglichen werden"
 
@@ -3185,15 +3225,15 @@ msgstr "Textdateien sind identisch"
 
 #, c-format
 msgid "(Middle and right are identical)"
-msgstr "(Mitte und Rechts sind identisch)"
+msgstr " (Mitte und Rechts sind identisch)"
 
 #, c-format
 msgid "(Left and right are identical)"
-msgstr "(Links und Rechts sind identisch)"
+msgstr " (Links und Rechts sind identisch)"
 
 #, c-format
 msgid "(Left and middle are identical)"
-msgstr "(Links und Mitte sind identisch)"
+msgstr " (Links und Mitte sind identisch)"
 
 #, c-format
 msgid "Text files are different"
@@ -3346,6 +3386,12 @@ msgstr "Anzahl der Unterschiede in der Datei. Die Zahl enthält nicht die ignori
 msgid "Shows an asterisk (*) if the file is binary."
 msgstr "Zeigt ein Asterisk (*), wenn die Datei binär ist."
 
+msgid "Unpacker plugin name or pipeline."
+msgstr ""
+
+msgid "Prediffer plugin name or pipeline."
+msgstr ""
+
 #, c-format
 msgid "Compare %1 with %2"
 msgstr "%1 mit %2 vergleichen"
@@ -3427,6 +3473,12 @@ msgstr "Möchten Sie zur nächsten Seite wechseln?"
 #, c-format
 msgid "Do you want to move to the previous page?"
 msgstr "Möchten Sie zur vorherigen Seite wechseln?"
+
+msgid "Do you want to move to the first file?"
+msgstr "Möchten Sie zur ersten Datei wechseln?"
+
+msgid "Do you want to move to the last file?"
+msgstr "Möchten Sie zur letzten Datei wechseln?"
 
 #, c-format
 msgid "Different codepages found in left (cp%d) and right (cp%d) files.\nDisplaying each file in its codepage will give a better display but merging/copying will be dangerous.\nWould you like to treat both files as being in the default Windows codepage (recommended)?"
@@ -3603,14 +3655,6 @@ msgid "Type"
 msgstr "Typ"
 
 #, c-format
-msgid "Unpacker"
-msgstr "Entpacker"
-
-#, c-format
-msgid "Prediffer"
-msgstr "Prediffer"
-
-#, c-format
 msgid "Editor script"
 msgstr "Editor-Skript"
 
@@ -3672,11 +3716,11 @@ msgstr "\nNach links kopieren und fortschreiten (Strg+Alt+Links)"
 
 #, c-format
 msgid "\nAll Right"
-msgstr "\nAlles nach rechts"
+msgstr "\nAlles nach rechts kopieren"
 
 #, c-format
 msgid "\nAll Left"
-msgstr "\nAlles nach links"
+msgstr "\nAlles nach links kopieren"
 
 #, c-format
 msgid "\nAuto Merge (Ctrl+Alt+M)"
@@ -3685,14 +3729,14 @@ msgstr "\nAutomatisch mischen (Strg+Alt+M)"
 msgid "\nFirst File"
 msgstr "\nErste Datei"
 
-msgid "\nNext File"
-msgstr "\nNächste Datei"
+msgid "\nNext File (Ctrl+F8)"
+msgstr "\nNächste Datei (Strg+F8)"
 
 msgid "\nLast File"
 msgstr "\nLetzte Datei"
 
-msgid "\nPrevious File"
-msgstr "\nVorherige Datei"
+msgid "\nPrevious File (Ctrl+F7)"
+msgstr "\nVorherige Datei (Strg+F7)"
 
 msgid "The adapted unpacker is applied to both files (one file only needs the extension)."
 msgstr "Der passende Entpacker wird auf beide Dateien angewendet. Nur eine Datei benötigt die Erweiterung."
@@ -3731,14 +3775,6 @@ msgstr "Plugin-Einstellungen"
 #, c-format
 msgid "WSH not found - .sct scripts disabled"
 msgstr "WSH nicht gefunden - SCT-Skripte deaktiviert."
-
-#, c-format
-msgid "<None>"
-msgstr "<Keine>"
-
-#, c-format
-msgid "<Automatic>"
-msgstr "<Automatisch>"
 
 #, c-format
 msgid "G&o to Line %1"
@@ -3944,20 +3980,139 @@ msgid "No differences to select found"
 msgstr "Keine Unterschiede zur Auswahl gefunden."
 
 msgid "No differences found to add as substitution filter"
-msgstr ""
+msgstr "Keine Unterschiede zum Hinzufügen als Ersetzungsfilter gefunden."
 
 msgid "The pair is already present in the list of Substitution Filters"
-msgstr ""
+msgstr "Das Paar ist bereits in der Ersetzungsfilterliste vorhanden!"
 
 msgid "Add this change to Substitution Filters?"
-msgstr ""
+msgstr "Diese Änderung zu den Ersetzungsfiltern hinzufügen?"
 
 msgid "Text only"
-msgstr ""
+msgstr "Nur Text"
 
 msgid "Line-by-line position and text"
-msgstr ""
+msgstr "Position und Text zeilenweise"
 
 msgid "Word-by-word position and text"
+msgstr "Position und Text wortweise"
+
+#, c-format
+msgid "Allow only one instance to run"
+msgstr "Nur eine Instanz zulassen"
+
+msgid "Allow only one instance to run and wait for the instance to terminate"
+msgstr "Nur eine Instanz zulassen und warten, bis die Instanz beendet ist"
+
+msgid "Al&l"
 msgstr ""
 
+msgid "Prettification"
+msgstr ""
+
+msgid "Content Extraction"
+msgstr ""
+
+msgid "Visualization"
+msgstr ""
+
+msgid "Data Query"
+msgstr ""
+
+msgid "&Others"
+msgstr ""
+
+msgid "Make Uppercase"
+msgstr ""
+
+msgid "Make Lowercase"
+msgstr ""
+
+msgid "Remove Duplicate Lines"
+msgstr ""
+
+msgid "Count Duplicate Lines"
+msgstr ""
+
+msgid "Sort Lines Ascending"
+msgstr ""
+
+msgid "Sort Lines Descending"
+msgstr ""
+
+msgid "Reverse Columns"
+msgstr ""
+
+msgid "Reverse Lines"
+msgstr ""
+
+msgid "Replace..."
+msgstr ""
+
+msgid "Apply Filter Command..."
+msgstr ""
+
+msgid "Tokenize..."
+msgstr ""
+
+msgid "Trim Spaces"
+msgstr ""
+
+msgid "Select Columns..."
+msgstr ""
+
+msgid "Select Lines..."
+msgstr ""
+
+msgid "Insert Date"
+msgstr ""
+
+msgid "Insert Time"
+msgstr ""
+
+msgid "Apply Patch..."
+msgstr ""
+
+msgid "Ignore Columns"
+msgstr ""
+
+msgid "Ignore Comments (C-Family Languages)"
+msgstr ""
+
+msgid "Ignore CSV Fields"
+msgstr ""
+
+msgid "Ignore TSV Fields"
+msgstr ""
+
+msgid "Apply Prediff Substitution Filters"
+msgstr ""
+
+msgid "Prettify JSON"
+msgstr ""
+
+msgid "Prettify XML"
+msgstr ""
+
+msgid "Visualize Graphviz"
+msgstr ""
+
+msgid "Query CSV Data..."
+msgstr ""
+
+msgid "Query TSV Data..."
+msgstr ""
+
+msgid "Query JSON Data..."
+msgstr ""
+
+#, c-format
+msgid "Missing plugin name in plugin pipeline: %1"
+msgstr ""
+
+#, c-format
+msgid "Missing quotation mark in plugin pipeline: %1"
+msgstr ""
+
+msgid "Specify plugin arguments"
+msgstr ""
